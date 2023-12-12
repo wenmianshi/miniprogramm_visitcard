@@ -1,0 +1,36 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/visitcard/visitcard",
+    "pages/news/news"
+  ],
+  "window": {
+    "backgroundColor": "#FFFFFF",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#87CEEB",
+    "navigationBarTitleText": "逸勉财务App",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2",
+  "lazyCodeLoading": "requiredComponents",
+  "permission": {
+    "scope.userLocation": {"desc": "我们将根据您的定位进行服务分类"}
+  },
+  "tabBar": {
+    "list": [
+      {
+        "text": "首页官网",
+        "pagePath": "pages/index/index"
+      },
+      {
+        "text": "名片管理",
+        "pagePath": "pages/visitcard/visitcard"
+      },
+      {
+        "text": "财税新闻",
+        "pagePath": "pages/news/news"
+      }
+    ]
+  }
+}
