@@ -16,11 +16,12 @@
   color: rgb(72, 70, 70);
 }
 .content{
-  font-size: 35rpx;
-  font-weight: 300;
+  font-size: 30rpx;
+  font-weight: 100;
   margin: 35rpx;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  text-shadow: rgba(69, 71, 71, 0.306) 0 0 5rpx;
+  text-shadow: rgba(77, 83, 83, 0.711) 0 0 2rpx;
+  color: rgb(86, 89, 92);
 }
 .visitcardM{
   font-size: 34rpx;

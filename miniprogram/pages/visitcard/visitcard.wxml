@@ -1,12 +1,16 @@
-<view class="container">
-  <view class="userinfo">
-    <button wx:if="{{!hasUserInfo && canIUse}}"> 获取头像昵称 </button>
-    <block wx:else>
-      <image src="{{userInfo.avatarUrl}}" background-size="cover"></image>
-      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
-    </block>
-  </view>
-  <view class="usermotto">
-    <text class="user-motto">{{motto}}</text>
-  </view>
-</view>
+<view>
+<view class="cover">
+    <image src="http://s59avscau.hd-bkt.clouddn.com/logo.png" class= "logo"/>
+    <view class="companyName">南京逸勉财务</view> 
+    <image src="http://s59avscau.hd-bkt.clouddn.com/mom.jpg" class="boss"/>
+    <view class="name">王宋萍</view> 
+    <view class="title">财务主管</view> 
+    <image src="http://s59avscau.hd-bkt.clouddn.com/telefon.png" class= "telefon"/>
+    <view class="info1">+86 18921427150</view> 
+    <image src="http://s59avscau.hd-bkt.clouddn.com/location.png" class= "location"/>
+    <view class="info2">南京市江北新区星火路11号 </view>
+    <view class="info3">动漫大厦B座4-413室</view>  
+    <button class="check"  style="right: 75px; top: 15px; width: 135px;px" type='default' bindtap='share'>查看名片</button>
+    <button class="send"  style="left: 75px; top: 15px; width: 135px;px" type='default' bindtap='saveMailList'>递名片</button>
+</view>  
+</view >
