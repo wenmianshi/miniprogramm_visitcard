@@ -2,7 +2,8 @@
   "pages": [
     "pages/index/index",
     "pages/visitcard/visitcard",
-    "pages/news/news"
+    "pages/news/news",
+    "pages/anotherPage1/anotherPage1"
   ],
   "window": {
     "backgroundColor": "#FFFFFF",

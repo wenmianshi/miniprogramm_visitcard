@@ -1,53 +1,40 @@
-.slides{
-  width: 100%;
-  height: 100%;
-}
-.slides swiper{
-  width: 100%;
-  height: 430rpx;
-}
-.com {
-  width: 100%;
-}
-.comIntro{
-  font-size: 34rpx;
-  font-weight: 550;
-  margin-left: 25rpx;
-  color: rgb(72, 70, 70);
-}
-.content{
-  font-size: 30rpx;
-  font-weight: 300;
-  margin: 35rpx;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  text-shadow: rgba(77, 83, 83, 0.711) 0 0 2rpx;
-  color: rgb(86, 89, 92);
+cover {
+  background-color: #dee3e3;
+  text-align: center;
+  padding: 200rpx;
+  /**border-radius 边框圆角**/
+  border-radius: 10rpx;
+  /**border-radius 四周阴影**/
+  box-shadow: 0 0 10rpx #8e8787;
+  /**border-radius 相对定位**/
+  position: relative;
+  margin-left: 100rpx;
 }
 .logo{
   /**border-radius 绝对定位**/
   position: absolute;
-  width: 25rpx;
-  height: 25rpx; 
-  top: 20rpx;
-  left: 20rpx;
-  border-radius: 4rpx;
+  width: 40rpx;
+  height: 40rpx; 
+  top: 40rpx;
+  left: 40rpx;
+  border-radius: 8rpx;
 }
 .companyName{
   /**border-radius 绝对定位**/
   position: absolute;
   font-weight: 550; 
   color:rgb(99, 97, 97);
-  font-size: 20rpx;
+  font-size: 26rpx;
   text-align: left;
-  top: 20rpx;
-  left: 55rpx;
+  top: 43rpx;
+  left: 90rpx;
 }
 .boss{
   position: absolute;
-  width: 220rpx;
-  height: 300rpx;
+  width: 300rpx;
+  height: 400rpx;
   top:0%;
-  left: 310rpx;
+  left: 390rpx;
   border-radius: 10rpx;
   
 }
@@ -55,45 +42,45 @@
   position: absolute;
   font-weight: 600; 
   color:rgb(30, 29, 29);
-  font-size: 40rpx;
+  font-size: 45rpx;
   text-align: left;
-  top: 75rpx;
+  top: 120rpx;
   left: 80rpx;
 }
 .title{
   position: absolute;
   font-weight:600; 
   color: #827f7f;
-  font-size: 23rpx;
+  font-size: 28rpx;
   text-align: left;
-  top: 130rpx;
-  left: 99rpx;
+  top: 170rpx;
+  left: 93rpx;
 }
 .info1{
   position: absolute;
   font-weight: 500; 
   color: #827f7f;
-  font-size: 22rpx;
+  font-size: 28rpx;
   text-align: left;
-  top: 185rpx;
+  top: 230rpx;
   left: 60rpx;
 }
 .info2{
   position: absolute;
   font-weight: 500; 
   color: #827f7f;
-  font-size: 22rpx;
+  font-size: 28rpx;
   text-align: left;
-  top: 220rpx;
+  top: 280rpx;
   left: 60rpx;
 }
 .info3{
   position: absolute;
   font-weight: 500; 
   color: #827f7f;
-  font-size: 22rpx;
+  font-size: 28rpx;
   text-align: left;
-  top: 252rpx;
+  top: 320rpx;
   left: 60rpx;
 }
 .telefon{
@@ -101,7 +88,7 @@
   position: absolute;
   width: 22rpx;
   height: 22rpx; 
-  top: 195rpx;
+  top: 237rpx;
   left: 26rpx;
   border-radius: 10rpx;
 }
@@ -110,36 +97,38 @@
   position: absolute;
   width: 22rpx;
   height: 22rpx; 
-  top: 232rpx;
+  top: 285rpx;
   left: 26rpx;
   border-radius: 10rpx;
 }
-.check{
-  position: absolute;
-  box-shadow: 0 0 8.8rpx #33a7e1;
-  top: 80rpx;
-  left: -185rpx;
-  height: 50rpx;
-  border-radius: 10rpx;
-  align-items: center!important;
-  justify-content: center!important;
-  font-size: 0.56rem;
-  line-height: 0.5rem;
-  font: weight 100;
-  color: #66b9e2!important;
-}
 .send{
   position: absolute;
-  top: 175rpx;
-  left: -185rpx;
+  top: 410rpx;
+  left: 350rpx;
+  box-shadow: 0 0 8.8rpx #33a7e1;
+  height: 60rpx;
+  border-radius: 30rpx;
+  align-items: center!important;
+  justify-content: center!important;
+  font-size: 33rpx;
+  font: weight 100;
+  color: #66b9e2!important;
+  float: left;
+  width: 50% !important;
+}
+.save{
+  position: absolute;
+  top: 410rpx;
+  left: 30rpx;
   box-shadow: 0 0 8rpx66b9e2;
-  height: 50rpx;
-  border-radius: 10rpx;
+  height: 60rpx;
+  border-radius: 30rpx;
   align-items: center;
   justify-content: center;
-  font-size: 0.56rem;
-  line-height: 0.5rem;
+  font-size: 33rpx;
   font: weight 100;
   background: #66b9e2!important;
   color: #ffffff!important;
+  float: right;
+  width: 50% !important;
 }

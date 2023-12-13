@@ -1,16 +1,104 @@
 <view>
 <view class="cover">
+    <text >\n\n</text>
     <image src="http://s59avscau.hd-bkt.clouddn.com/logo.png" class= "logo"/>
     <view class="companyName">南京逸勉财务</view> 
-    <image src="http://s59avscau.hd-bkt.clouddn.com/mom.jpg" class="boss"/>
+    <image src="http://s59avscau.hd-bkt.clouddn.com/mama.png" class="boss"/>
     <view class="name">王宋萍</view> 
-    <view class="title">财务主管</view> 
+    <view class="title">总经理</view> 
     <image src="http://s59avscau.hd-bkt.clouddn.com/telefon.png" class= "telefon"/>
     <view class="info1">+86 18921427150</view> 
     <image src="http://s59avscau.hd-bkt.clouddn.com/location.png" class= "location"/>
     <view class="info2">南京市江北新区星火路11号 </view>
     <view class="info3">动漫大厦B座4-413室</view>  
-    <button class="check"  style="right: 75px; top: 15px; width: 135px;px" type='default' bindtap='share'>查看名片</button>
-    <button class="send"  style="left: 75px; top: 15px; width: 135px;px" type='default' bindtap='saveMailList'>递名片</button>
+    <view class="together">
+        <button class="check"  style="width: 250rpx!important" type='default' bindtap='anotherPage1'>查看名片</button>
+        <button class="send"  style="width: 250rpx!important" type='default' bindtap='share'>递名片</button>
+    </view> 
 </view>  
+<view class="cover1">
+    <text >\n\n</text>
+    <image src="http://s59avscau.hd-bkt.clouddn.com/logo.png" class= "logo"/>
+    <view class="companyName">南京逸勉财务</view> 
+    <image src="http://s59avscau.hd-bkt.clouddn.com/liuxingyao.png"  class="boss"/>
+    <view class="name">刘星瑶</view> 
+    <view class="title">财务会计</view> 
+    <image src="http://s59avscau.hd-bkt.clouddn.com/telefon.png" class= "telefon"/>
+    <view class="info1">+86 </view> 
+    <image src="http://s59avscau.hd-bkt.clouddn.com/location.png" class= "location"/>
+    <view class="info2">南京市江北新区星火路11号 </view>
+    <view class="info3">动漫大厦B座4-413室</view>  
+    <view class="together">
+        <button class="check"  style="width: 250rpx!important" type='default' bindtap='anotherPage1'>查看名片</button>
+        <button class="send"  style="width: 250rpx!important" type='default' bindtap='share'>递名片</button>
+    </view> 
+</view> 
+<view class="cover2">
+    <text >\n\n</text>
+    <image src="http://s59avscau.hd-bkt.clouddn.com/logo.png" class= "logo"/>
+    <view class="companyName">南京逸勉财务</view> 
+    <image src="http://s59avscau.hd-bkt.clouddn.com/peizaiwen.png"  class="boss"/>
+    <view class="name">裴在文</view> 
+    <view class="title">财务会计</view> 
+    <image src="http://s59avscau.hd-bkt.clouddn.com/telefon.png" class= "telefon"/>
+    <view class="info1">+86 </view> 
+    <image src="http://s59avscau.hd-bkt.clouddn.com/location.png" class= "location"/>
+    <view class="info2">南京市江北新区星火路11号 </view>
+    <view class="info3">动漫大厦B座4-413室</view>  
+    <view class="together">
+        <button class="check"  style="width: 250rpx!important" type='default' bindtap='anotherPage1'>查看名片</button>
+        <button class="send"  style="width: 250rpx!important" type='default' bindtap='share'>递名片</button>
+    </view> 
+</view> 
+<view class="cover3">
+    <text >\n\n</text>
+    <image src="http://s59avscau.hd-bkt.clouddn.com/logo.png" class= "logo"/>
+    <view class="companyName">南京逸勉财务</view> 
+    <image src="http://s59avscau.hd-bkt.clouddn.com/lichen.png"  class="boss"/>
+    <view class="name">李晨</view> 
+    <view class="title">会计助理</view> 
+    <image src="http://s59avscau.hd-bkt.clouddn.com/telefon.png" class= "telefon"/>
+    <view class="info1">+86 </view> 
+    <image src="http://s59avscau.hd-bkt.clouddn.com/location.png" class= "location"/>
+    <view class="info2">南京市江北新区星火路11号 </view>
+    <view class="info3">动漫大厦B座4-413室</view>  
+    <view class="together">
+        <button class="check"  style="width: 250rpx!important" type='default' bindtap='anotherPage1'>查看名片</button>
+        <button class="send"  style="width: 250rpx!important" type='default' bindtap='share'>递名片</button>
+    </view> 
+</view> 
+<view class="cover4">
+    <text >\n\n</text>
+    <image src="http://s59avscau.hd-bkt.clouddn.com/logo.png" class= "logo"/>
+    <view class="companyName">南京逸勉财务</view> 
+    <image src="http://s59avscau.hd-bkt.clouddn.com/lidehui.png"  class="boss"/>
+    <view class="name">李德慧</view> 
+    <view class="title">会计助理</view> 
+    <image src="http://s59avscau.hd-bkt.clouddn.com/telefon.png" class= "telefon"/>
+    <view class="info1">+86 </view> 
+    <image src="http://s59avscau.hd-bkt.clouddn.com/location.png" class= "location"/>
+    <view class="info2">南京市江北新区星火路11号 </view>
+    <view class="info3">动漫大厦B座4-413室</view>  
+    <view class="together">
+        <button class="check"  style="width: 250rpx!important" type='default' bindtap='anotherPage1'>查看名片</button>
+        <button class="send"  style="width: 250rpx!important" type='default' bindtap='share'>递名片</button>
+    </view> 
+</view> 
+<view class="cover5">
+    <text >\n\n</text>
+    <image src="http://s59avscau.hd-bkt.clouddn.com/logo.png" class= "logo"/>
+    <view class="companyName">南京逸勉财务</view> 
+    <image src="http://s59avscau.hd-bkt.clouddn.com/wangrong.png"  class="boss"/>
+    <view class="name">王荣祥</view> 
+    <view class="title">外勤会计</view> 
+    <image src="http://s59avscau.hd-bkt.clouddn.com/telefon.png" class= "telefon"/>
+    <view class="info1">+86 </view> 
+    <image src="http://s59avscau.hd-bkt.clouddn.com/location.png" class= "location"/>
+    <view class="info2">南京市江北新区星火路11号 </view>
+    <view class="info3">动漫大厦B座4-413室</view>  
+    <view class="together">
+        <button class="check"  style="width: 250rpx!important" type='default' bindtap='anotherPage1'>查看名片</button>
+        <button class="send"  style="width: 250rpx!important" type='default' bindtap='share'>递名片</button>
+    </view> 
+</view> 
 </view >
