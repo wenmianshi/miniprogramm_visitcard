@@ -1,38 +1,33 @@
 <view>
-    <view class="cover">
-        <image src="http://s59avscau.hd-bkt.clouddn.com/logo.png" class= "logo"/>
-        <view class="companyName">南京逸勉财务</view> 
-        <image src="http://s59avscau.hd-bkt.clouddn.com/mom.jpg" class="boss"/>
-        <view class="name">王宋萍</view> 
-        <view class="title">财务主管</view> 
-        <image src="http://s59avscau.hd-bkt.clouddn.com/telefon.png" class= "telefon"/>
-        <view class="info1">+86 18921427150</view> 
-        <image src="http://s59avscau.hd-bkt.clouddn.com/location.png" class= "location"/>
-        <view class="info2">南京市研创园团结路</view>
-        <view class="info3">99号孵鹰大厦2707室</view>  
-    </view>  
-    <view class="1">
-        <button class="send"  style="width: 500rpx!important" type='default' bindtap='share'>发名片</button>
-        <button class="save"  style="width:150rpx" type='default' bindtap='saveMailList'>保存到通讯录</button>
-    </view>
-    <view class="2">
-        <button class="call"  style="width: 200rpx" type='default' hover-class="none" bindtap='anrufen'>拨打电话</button>
-        <button class="copy" style="width: 200rpx" type='default' bindtap='copyWechat'>复制微信</button>
-        <button class="navigation" style="width: 200rpx" type='default' bindtap='nav'>导航地址</button>
-    </view>
+    <view class="aP_cover">
+        <image src="http://s59avscau.hd-bkt.clouddn.com/logo.png" class="aP_logo"/>
+        <view class="aP_companyName">南京逸勉财务</view> 
+        <image src="http://s59avscau.hd-bkt.clouddn.com/mom.jpg" class="aP_boss"/>
+        <view class="aP_name">王宋萍</view> 
+        <view class="aP_title">财务主管</view> 
+        <image src="http://s59avscau.hd-bkt.clouddn.com/telefon.png" class= "aP_telefon"/>
+        <view class="aP_info1">+86 18921427150</view> 
+        <image src="http://s59avscau.hd-bkt.clouddn.com/location.png" class= "aP_location"/>
+        <view class="aP_info2">南京市研创园团结路</view>
+        <view class="aP_info3">99号孵鹰大厦2707室</view> 
+    </view> 
+    
+        <button class="aP_send"  style="width: 300rpx!important" type='default' bindtap='share'>发名片</button>
+        <button class="aP_save"  style="width: 300rpx!important" type='default' bindtap='saveMailList'>保存到通讯录</button>
+    
+      
+        <button class="aP_call"  style="width: 200rpx" type='default' hover-class="none" bindtap='anrufen'>拨打电话</button>
+        <button class="aP_copy" style="width: 200rpx" type='default' bindtap='copyWechat'>复制微信</button>
+        <button class="aP_navigation" style="width: 200rpx" type='default' bindtap='nav'>导航地址</button> 
+   
 
-    <view class="body">
+    <view class="aP_body">
         <text >\n\n\n\n</text>
-        <view class="introduction">个人简介</view>
-        <view class="content">作为新创财务咨询企业--南京逸勉财务的负责人，我从事会计行业已近三十余年，精通多个行业的财务管理工作。</view>
-        <view class="introduction">个人照片</view> 
+        <view class="aP_introduction">个人简介</view>
+        <view class="aP_content">作为新创财务咨询企业--南京逸勉财务的负责人，我从事会计行业已近三十余年，精通多个行业的财务管理工作。</view>
+        <view class="aP_introduction">个人照片</view> 
+        <text >\n</text>
         
-        <image src="http://s59avscau.hd-bkt.clouddn.com/com1.jpg" class="comp"/>
-        <image src="http://s59avscau.hd-bkt.clouddn.com/com2.jpg" class="comp"/>
-        <image src="http://s59avscau.hd-bkt.clouddn.com/com3.jpg" class="comp"/>
-        <image src="http://s59avscau.hd-bkt.clouddn.com/com4.jpg" class="comp"/>
-        <image src="http://s59avscau.hd-bkt.clouddn.com/com5.jpg" class="comp"/>
-        <image src="http://s59avscau.hd-bkt.clouddn.com/com6.jpg" class="comp"/>
     </view>
     
 </view>  
