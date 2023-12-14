@@ -9,3 +9,116 @@
   width: 700rpx;
   height: 490rpx;
 }
+.priceList1{
+  top: 30rpx;
+  position: relative;
+  margin-left: 223rpx;
+  font-size: 36rpx;
+  font-weight: 800;
+  color: rgb(12, 50, 218);
+}
+.smallscope{
+  position: absolute;
+  top: 600rpx;
+  left: 20rpx;
+  font-size: 0.9rem;
+  line-height: 1rem;
+  height: 60rpx;
+  color: floralwhite!important;
+  background-color:rgb(171, 170, 238)!important;
+}
+.normal{
+  position: absolute;
+  top: 600rpx;
+  left: 380rpx;
+  font-size: 0.9rem;
+  line-height: 1rem;
+  height: 60rpx;
+  color: floralwhite!important;
+  background-color:rgb(171, 170, 238)!important;
+}
+.title{
+  position: absolute;
+  left: 20rpx;
+  top: 680rpx;
+  width: 350rpx;
+  height: 60rpx;
+  background-color: rgb(205, 229, 227);
+}
+.title1{
+  position: absolute;
+  left: 380rpx;
+  top: 680rpx;
+  width: 350rpx;
+  height: 60rpx;
+  background-color:  rgb(205, 229, 227);
+}
+.salesYear{
+  position: absolute;
+  left: 20rpx;
+  top: 741rpx;
+  height: 150rpx;
+  width: 350rpx;
+  background-color: rgb(171, 170, 238);
+}
+.salesMonth{
+  position: absolute;
+  left: 380rpx;
+  top: 741rpx;
+  height: 150rpx;
+  width: 350rpx;
+  background-color: rgb(171, 170, 238);
+}
+.contentSmall{
+  position: absolute;
+  left: 20rpx;
+  top: 890rpx;
+  height: 500rpx;
+  width: 350rpx;
+  background-color: rgb(237, 237, 243);
+  font-size: 29rpx;
+}
+.contentNormal{
+  position: absolute;
+  left: 380rpx;
+  top: 890rpx;
+  height: 500rpx;
+  width: 350rpx;
+  background-color: rgb(237, 237, 243);
+  font-size: 29rpx;
+}
+.weak{
+  font-size: 28rpx;
+}
+.titlesmall{
+  position: absolute;
+  top: -30rpx;
+  left: 89rpx;
+  font-size: 28rpx;
+}
+.titlesmall1{
+  position: absolute;
+  top: -30rpx;
+  left: 89rpx;
+  font-size: 28rpx;
+}
+.join1{
+  position: absolute;
+  left: 50rpx;
+  top: 1450rpx;
+  font-size: 0.8rem;
+  line-height: 1rem;
+  color: aliceblue!important;
+  background-color: rgb(171, 170, 238)!important;
+  border-radius: 25rpx;
+}
+.join2{
+  position: absolute;
+  left: 433rpx;
+  top: 1450rpx;
+  font-size: 0.8rem;
+  line-height: 1rem;
+  color: aliceblue!important;
+  background-color: rgb(171, 170, 238)!important;
+  border-radius: 25rpx;
+}
