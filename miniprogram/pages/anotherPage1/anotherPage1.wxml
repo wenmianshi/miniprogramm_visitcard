@@ -2,14 +2,14 @@
     <view class="aP_cover">
         <image src="http://s59avscau.hd-bkt.clouddn.com/logo.png" class="aP_logo"/>
         <view class="aP_companyName">南京逸勉财务</view> 
-        <image src="http://s59avscau.hd-bkt.clouddn.com/mom.jpg" class="aP_boss"/>
+        <image src="http://s59avscau.hd-bkt.clouddn.com/mama.png" class="aP_boss"/>
         <view class="aP_name">王宋萍</view> 
         <view class="aP_title">财务主管</view> 
         <image src="http://s59avscau.hd-bkt.clouddn.com/telefon.png" class= "aP_telefon"/>
         <view class="aP_info1">+86 18921427150</view> 
         <image src="http://s59avscau.hd-bkt.clouddn.com/location.png" class= "aP_location"/>
-        <view class="aP_info2">南京市研创园团结路</view>
-        <view class="aP_info3">99号孵鹰大厦2707室</view> 
+        <view class="aP_info2">南京市软件园星火路11号</view>
+        <view class="aP_info3">动漫大厦B座413室</view> 
     </view> 
     
         <button class="aP_send"  style="width: 300rpx!important" type='default' bindtap='share'>发名片</button>

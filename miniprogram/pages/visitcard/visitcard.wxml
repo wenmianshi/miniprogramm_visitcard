@@ -24,13 +24,13 @@
     <view class="name">刘星瑶</view> 
     <view class="title">财务会计</view> 
     <image src="http://s59avscau.hd-bkt.clouddn.com/telefon.png" class= "telefon"/>
-    <view class="info1">+86 </view> 
+    <view class="info1">+86 17321548170</view> 
     <image src="http://s59avscau.hd-bkt.clouddn.com/location.png" class= "location"/>
     <view class="info2">南京市江北新区星火路11号 </view>
     <view class="info3">动漫大厦B座4-413室</view>  
     <view class="together">
-        <button class="check"  style="width: 250rpx!important" type='default' bindtap='anotherPage1'>查看名片</button>
-        <button class="send"  style="width: 250rpx!important" type='default' bindtap='share'>递名片</button>
+        <button class="check"  style="width: 250rpx!important" type='default' bindtap='anotherPage2'>查看名片</button>
+        <button class="send"  style="width: 250rpx!important" type='default' bindtap='share2'>递名片</button>
     </view> 
 </view> 
 <view class="cover2">
@@ -41,13 +41,13 @@
     <view class="name">裴在文</view> 
     <view class="title">财务会计</view> 
     <image src="http://s59avscau.hd-bkt.clouddn.com/telefon.png" class= "telefon"/>
-    <view class="info1">+86 </view> 
+    <view class="info1">+86 13770805316</view> 
     <image src="http://s59avscau.hd-bkt.clouddn.com/location.png" class= "location"/>
     <view class="info2">南京市江北新区星火路11号 </view>
     <view class="info3">动漫大厦B座4-413室</view>  
     <view class="together">
-        <button class="check"  style="width: 250rpx!important" type='default' bindtap='anotherPage1'>查看名片</button>
-        <button class="send"  style="width: 250rpx!important" type='default' bindtap='share'>递名片</button>
+        <button class="check"  style="width: 250rpx!important" type='default' bindtap='anotherPage3'>查看名片</button>
+        <button class="send"  style="width: 250rpx!important" type='default' bindtap='share3'>递名片</button>
     </view> 
 </view> 
 <view class="cover3">
@@ -58,13 +58,13 @@
     <view class="name">李晨</view> 
     <view class="title">会计助理</view> 
     <image src="http://s59avscau.hd-bkt.clouddn.com/telefon.png" class= "telefon"/>
-    <view class="info1">+86 </view> 
+    <view class="info1">+86 18051963452</view> 
     <image src="http://s59avscau.hd-bkt.clouddn.com/location.png" class= "location"/>
     <view class="info2">南京市江北新区星火路11号 </view>
     <view class="info3">动漫大厦B座4-413室</view>  
     <view class="together">
-        <button class="check"  style="width: 250rpx!important" type='default' bindtap='anotherPage1'>查看名片</button>
-        <button class="send"  style="width: 250rpx!important" type='default' bindtap='share'>递名片</button>
+        <button class="check"  style="width: 250rpx!important" type='default' bindtap='anotherPage4'>查看名片</button>
+        <button class="send"  style="width: 250rpx!important" type='default' bindtap='share4'>递名片</button>
     </view> 
 </view> 
 <view class="cover4">
@@ -75,13 +75,13 @@
     <view class="name">李德慧</view> 
     <view class="title">会计助理</view> 
     <image src="http://s59avscau.hd-bkt.clouddn.com/telefon.png" class= "telefon"/>
-    <view class="info1">+86 </view> 
+    <view class="info1">+86 18994126285</view> 
     <image src="http://s59avscau.hd-bkt.clouddn.com/location.png" class= "location"/>
     <view class="info2">南京市江北新区星火路11号 </view>
     <view class="info3">动漫大厦B座4-413室</view>  
     <view class="together">
-        <button class="check"  style="width: 250rpx!important" type='default' bindtap='anotherPage1'>查看名片</button>
-        <button class="send"  style="width: 250rpx!important" type='default' bindtap='share'>递名片</button>
+        <button class="check"  style="width: 250rpx!important" type='default' bindtap='anotherPage5'>查看名片</button>
+        <button class="send"  style="width: 250rpx!important" type='default' bindtap='share5'>递名片</button>
     </view> 
 </view> 
 <view class="cover5">
@@ -92,13 +92,13 @@
     <view class="name">王荣祥</view> 
     <view class="title">外勤会计</view> 
     <image src="http://s59avscau.hd-bkt.clouddn.com/telefon.png" class= "telefon"/>
-    <view class="info1">+86 </view> 
+    <view class="info1">+86 13814174916</view> 
     <image src="http://s59avscau.hd-bkt.clouddn.com/location.png" class= "location"/>
     <view class="info2">南京市江北新区星火路11号 </view>
     <view class="info3">动漫大厦B座4-413室</view>  
     <view class="together">
-        <button class="check"  style="width: 250rpx!important" type='default' bindtap='anotherPage1'>查看名片</button>
-        <button class="send"  style="width: 250rpx!important" type='default' bindtap='share'>递名片</button>
+        <button class="check"  style="width: 250rpx!important" type='default' bindtap='anotherPage6'>查看名片</button>
+        <button class="send"  style="width: 250rpx!important" type='default' bindtap='share6'>递名片</button>
     </view> 
 </view> 
 </view >

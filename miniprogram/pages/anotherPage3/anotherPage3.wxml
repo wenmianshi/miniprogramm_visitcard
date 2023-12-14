@@ -1,0 +1,34 @@
+<!--pages/anotherPage3/anotherPage3.wxml-->
+<view>
+    <view class="aP_cover">
+        <image src="http://s59avscau.hd-bkt.clouddn.com/logo.png" class="aP_logo"/>
+        <view class="aP_companyName">南京逸勉财务</view> 
+        <image src="http://s59avscau.hd-bkt.clouddn.com/peizaiwen.png" class="aP_boss"/>
+        <view class="aP_name">裴在文</view> 
+        <view class="aP_title">财务会计</view> 
+        <image src="http://s59avscau.hd-bkt.clouddn.com/telefon.png" class= "aP_telefon"/>
+        <view class="aP_info1">+86 13770805316</view> 
+        <image src="http://s59avscau.hd-bkt.clouddn.com/location.png" class= "aP_location"/>
+        <view class="aP_info2">南京市软件园星火路11号</view>
+        <view class="aP_info3">动漫大厦B座413室</view> 
+    </view> 
+    
+        <button class="aP_send"  style="width: 300rpx!important" type='default' bindtap='share3'>发名片</button>
+        <button class="aP_save"  style="width: 300rpx!important" type='default' bindtap='saveMailList3'>保存到通讯录</button>
+    
+      
+        <button class="aP_call"  style="width: 200rpx" type='default' hover-class="none" bindtap='anrufen3'>拨打电话</button>
+        <button class="aP_copy" style="width: 200rpx" type='default' bindtap='copyWechat3'>复制微信</button>
+        <button class="aP_navigation" style="width: 200rpx" type='default' bindtap='nav3'>导航地址</button> 
+   
+
+    <view class="aP_body">
+        <text >\n\n\n\n</text>
+        <view class="aP_introduction">个人简介</view>
+        <view class="aP_content"></view>
+        <view class="aP_introduction">个人照片</view> 
+        <text >\n</text>
+        
+    </view>
+    
+</view>  

@@ -1,5 +1,4 @@
-const app = getApp()
-const order = ['demo1', 'demo2', 'demo3', 'demo4', 'demo5', 'demo6']
+
 Page({
   data:{
     indicator_dots:true,

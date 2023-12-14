@@ -3,7 +3,13 @@
     "pages/index/index",
     "pages/visitcard/visitcard",
     "pages/news/news",
-    "pages/anotherPage1/anotherPage1"
+    "pages/anotherPage1/anotherPage1",
+    "pages/anotherPage2/anotherPage2",
+    "pages/anotherPage3/anotherPage3",
+    "pages/anotherPage4/anotherPage4",
+    "pages/anotherPage5/anotherPage5",
+    "pages/anotherPage6/anotherPage6",
+    "pages/articles/articles"
   ],
   "window": {
     "backgroundColor": "#FFFFFF",
@@ -29,9 +35,13 @@
         "pagePath": "pages/visitcard/visitcard"
       },
       {
-        "text": "财税新闻",
+        "text": "公司业务",
         "pagePath": "pages/news/news"
-      }
-    ]
+      }],
+      "color": "#333",
+      "selectedColor": "#000",
+      "backgroundColor": "#fff",
+      "fontSize": 24,
+      "position": "bottom"
   }
 }

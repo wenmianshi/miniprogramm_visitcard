@@ -1,0 +1,30 @@
+
+<view class="smallCover">
+   
+    <text space="ensp" class="part1" bindtap='teil1'>   政策热点    </text>
+    <text space="ensp" class="part2" bindtap='teil2'>财税服务    </text>
+    <text space="ensp" class="part3" bindtap='teil3'>工商服务    </text>
+    <text space="ensp" class="part4" bindtap='teil4'>资质许可   </text>
+</view>
+<view class="coverArticles">
+    <block class="policy" bindtap='policies' >
+       <image src="http://s59avscau.hd-bkt.clouddn.com/com6.jpg" class="p1" bindtap='policies'></image> 
+       <text class="wenben">十二月政策新规请知悉</text>
+       <button class="wl" style="width: 150rpx !important;" type="default" bindtap='weiterleiten'>转发</button>
+    </block>
+</view>
+<view class="coverArticles1">
+    <block class="policy" bindtap='policies1' >
+       <image src="http://s59avscau.hd-bkt.clouddn.com/com6.jpg" class="p1" bindtap='policies'></image> 
+       <text class="wenben">十二月政策新规请知悉</text>
+       <button class="wl" style="width: 150rpx !important;" type="default" bindtap='weiterleiten1'>转发</button>
+    </block>
+</view>
+<view class="coverArticles2">
+    <block class="policy" bindtap='policies2' >
+       <image src="http://s59avscau.hd-bkt.clouddn.com/com6.jpg" class="p1" bindtap='policies'></image> 
+       <text class="wenben">十二月政策新规请知悉</text>
+       <button class="wl" style="width: 150rpx !important;" type="default" bindtap='weiterleiten2'>转发</button>
+    </block>
+</view>
+

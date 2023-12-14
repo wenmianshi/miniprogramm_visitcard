@@ -33,7 +33,40 @@
   <text >逸勉财务作为一家新创财务咨询企业，创立不久就已经获得南京市江北新区的几百家小微企业的亲睐，对此我们十分感恩。作为一家年轻有活力并不断寻求扩展的企业，我们也诚挚期待并欢迎更多的客户群。\n </text>
   <text >\n 如果您有需求，请不要犹豫。联系我们，让逸勉为贵公司的财务工作保驾护航！</text>
 </view>
-<view class="comIntro">
-  <text >财税新闻</text>
+<view >
+    <text class="comIntro" >财税要闻</text>
+    <text space="ensp" class="checkAll" bindtap='allArticles'>                              查看全部 </text>
+    <text space="ensp" class="checkAl" bindtap='allArticles'>></text>
+    <text >\n \n \n</text>
+</view>
+<view class="smallCover">
+    <text space="ensp" class="part1" bindtap='teil1'>  政策热点    </text>
+    <text space="ensp" class="part2" bindtap='teil2'>财税服务    </text>
+    <text space="ensp" class="part3" bindtap='teil3'>工商服务   </text>
+    <text space="ensp" class="part4" bindtap='teil4'>资质许可   </text>
+</view>
+<view class="coverArticles">
+    <block class="policy" bindtap='policies' >
+        <text >\n</text>
+       <image src="http://s59avscau.hd-bkt.clouddn.com/com6.jpg" class="p1" bindtap='policies'></image> 
+       <text class="wenben">十二月政策新规请知悉</text>
+       <button class="wl" style="width: 150rpx !important;" type="default" bindtap='weiterleiten'>转发</button>
+    </block>
+</view>
+<view class="coverArticles1">
+    <block class="policy" bindtap='policies1' >
+        <text >\n</text>
+       <image src="http://s59avscau.hd-bkt.clouddn.com/com6.jpg" class="p1" bindtap='policies'></image> 
+       <text class="wenben">十二月政策新规请知悉</text>
+       <button class="wl" style="width: 150rpx !important;" type="default" bindtap='weiterleiten1'>转发</button>
+    </block>
+</view>
+<view class="coverArticles2">
+    <block class="policy" bindtap='policies2' >
+        <text >\n</text>
+       <image src="http://s59avscau.hd-bkt.clouddn.com/com6.jpg" class="p1" bindtap='policies'></image> 
+       <text class="wenben">十二月政策新规请知悉</text>
+       <button class="wl" style="width: 150rpx !important;" type="default" bindtap='weiterleiten2'>转发</button>
+    </block>
 </view>
 

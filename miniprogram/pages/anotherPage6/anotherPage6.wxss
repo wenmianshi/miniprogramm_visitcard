@@ -1,0 +1,188 @@
+/* pages/anotherPage6/anotherPage6.wxss */
+/* pages/anotherPage5/anotherPage5.wxss */
+/* pages/anotherPage4/anotherPage4.wxss */
+/* pages/anotherPage3/anotherPage3.wxss */
+/* pages/anotherPage2/anotherPage2.wxss */
+.aP_cover{
+    background-color: #feffff;
+    text-align: center;
+    padding: 200rpx;
+    /**border-radius 边框圆角**/
+    border-radius: 10rpx;
+    /**border-radius 四周阴影**/
+    box-shadow: 0 0 10rpx #8e8787;
+    /**border-radius 相对定位**/
+    position: relative;
+    margin: 30rpx;
+  }
+  .aP_logo{
+    /**border-radius 绝对定位**/
+    position: absolute;
+    width: 40rpx;
+    height: 40rpx; 
+    top: 40rpx;
+    left: 40rpx;
+    border-radius: 8rpx;
+  }
+  .aP_companyName{
+    /**border-radius 绝对定位**/
+    position: absolute;
+    font-weight: 550; 
+    color:rgb(99, 97, 97);
+    font-size: 26rpx;
+    text-align: left;
+    top: 43rpx;
+    left: 90rpx;
+  }
+  .aP_boss{
+    position: absolute;
+    width: 300rpx;
+    height: 400rpx;
+    top:0%;
+    left: 390rpx;
+    border-radius: 10rpx;
+    
+  }
+  .aP_name{
+    position: absolute;
+    font-weight: 600; 
+    color:rgb(30, 29, 29);
+    font-size: 45rpx;
+    text-align: left;
+    top: 120rpx;
+    left: 80rpx;
+  }
+  .aP_title{
+    position: absolute;
+    font-weight:600; 
+    color: #827f7f;
+    font-size: 28rpx;
+    text-align: left;
+    top: 175rpx;
+    left: 93rpx;
+  }
+  .aP_info1{
+    position: absolute;
+    font-weight: 500; 
+    color: #827f7f;
+    font-size: 28rpx;
+    text-align: left;
+    top: 230rpx;
+    left: 60rpx;
+  }
+  .aP_info2{
+    position: absolute;
+    font-weight: 500; 
+    color: #827f7f;
+    font-size: 28rpx;
+    text-align: left;
+    top: 280rpx;
+    left: 60rpx;
+  }
+  .aP_info3{
+    position: absolute;
+    font-weight: 500; 
+    color: #827f7f;
+    font-size: 28rpx;
+    text-align: left;
+    top: 320rpx;
+    left: 60rpx;
+  }
+  .aP_telefon{
+    /**border-radius 绝对定位**/
+    position: absolute;
+    width: 22rpx;
+    height: 22rpx; 
+    top: 237rpx;
+    left: 26rpx;
+    border-radius: 10rpx;
+  }
+  .aP_location{
+    /**border-radius 绝对定位**/
+    position: absolute;
+    width: 22rpx;
+    height: 22rpx; 
+    top: 285rpx;
+    left: 26rpx;
+    border-radius: 10rpx;
+  }
+  .aP_send{
+    position: absolute;
+    top: 450rpx;
+    left: 400rpx;
+    box-shadow: 0 0 8.8rpx #33a7e1;
+    height: 67rpx;
+    border-radius: 30rpx;
+    align-items: center!important;
+    justify-content: center!important;
+    font-size: 33rpx;
+    font: weight 100;
+    color: #66b9e2!important;
+    float: left;
+    width: 50% !important;
+  }
+  .aP_save{
+    position: absolute;
+    top: 450rpx;
+    left: 52rpx;
+    box-shadow: 0 0 8rpx66b9e2;
+    height: 70rpx;
+    border-radius: 30rpx;
+    align-items: center!important;
+    justify-content: center!important;
+    font-size: 33rpx;
+    font: weight 100;
+    background: #66b9e2!important;
+    color: #ffffff!important;
+    float: right;
+    width: 50% !important;
+  }
+  .aP_call{
+    position: absolute;
+    top: 540rpx;
+    left: 42rpx;
+    font-size: 24rpx;
+    background-color: #d9effa!important;
+    border-radius: 15rpx;
+    color: black!important;
+    font-weight: 300!important;
+    height: 55rpx;
+  }
+  .aP_copy{
+    position: absolute;
+    top: 540rpx;
+    left: 280rpx;
+    font-size: 24rpx;
+    background-color: #d9effa!important;
+    border-radius: 15rpx;
+    color: black!important;
+    font-weight: 300!important;
+    height: 55rpx;
+    align-items: center!important;
+    justify-content: center!important;
+  }
+  .aP_navigation{
+    position: absolute;
+    top: 540rpx;
+    left: 512rpx;
+    font-size: 24rpx;
+    background-color: #d9effa!important;
+    border-radius: 15rpx;
+    color: black!important;
+    font-weight: 300!important;
+    height: 55rpx;
+  }
+  .aP_introduction{
+    font-size: 34rpx;
+    font-weight: 550;
+    margin-left: 25rpx;
+    color: rgb(72, 70, 70);
+  }
+  .aP_content{
+     font-size: 30rpx;
+    font-weight: 300;
+    margin: 35rpx;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: rgba(77, 83, 83, 0.711) 0 0 2rpx;
+    color: rgb(86, 89, 92);
+  }

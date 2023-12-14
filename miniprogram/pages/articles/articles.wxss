@@ -1,0 +1,74 @@
+
+.part1{
+  position: absolute;
+  top: 980rpx;
+  left: 15rpx;
+  font-size: 31rpx;
+}
+.part2{
+  position: absolute;
+  top: 980rpx;
+  left: 235rpx;
+  font-size: 31rpx;
+}
+.part3{
+  position: absolute;
+  top: 980rpx;
+  left: 400rpx;
+  font-size: 31rpx;
+}
+.part4{
+  position: absolute;
+  top: 980rpx;
+  left: 575rpx;
+  font-size: 31rpx;
+}
+.smallCover{
+  height: 60rpx;
+  width: 800rpx;
+  background-color: rgb(250, 252, 252);
+}
+.coverArticles{
+  position: relative;
+  height: 160rpx;
+  width: 800rpx;
+  background-color: rgb(246, 254, 254);
+}
+.p1{
+  margin-left: 30rpx;
+  margin-top: 15rpx;
+  position: relative;
+  width: 130rpx;
+  height: 130rpx;
+}
+.wenben{
+  position: relative;
+  top: -100rpx;
+  font-size: 28rpx;
+  left: 30rpx;
+}
+.wl{
+  position: relative;
+  top: -75rpx;
+  left: 200rpx;
+  font-size: 0.83rem;
+  line-height: 1rem;
+  height: 55rpx;
+  border-radius: 20rpx;
+  text-align: center;
+  justify-content: center;
+  color: rgb(237, 244, 253)!important;
+  background-color: #7dc6ea!important;
+}
+.coverArticles1{
+  position: relative;
+  height: 160rpx;
+  width: 800rpx;
+  background-color: rgb(246, 254, 254);
+}
+.coverArticles2{
+  position: relative;
+  height: 160rpx;
+  width: 800rpx;
+  background-color: rgb(246, 254, 254);
+}
