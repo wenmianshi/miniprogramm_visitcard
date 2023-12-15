@@ -15,7 +15,7 @@
   margin-left: 223rpx;
   font-size: 36rpx;
   font-weight: 800;
-  color: rgb(12, 50, 218);
+  color: rgb(23, 23, 23);
 }
 .smallscope{
   position: absolute;
@@ -24,8 +24,9 @@
   font-size: 0.9rem;
   line-height: 1rem;
   height: 60rpx;
-  color: floralwhite!important;
-  background-color:rgb(171, 170, 238)!important;
+  color: rgb(171, 170, 238)!important;
+  background-color:rgb(245, 245, 248)!important;
+  box-shadow: 0 0 4rpx rgb(144, 143, 231)!important;
 }
 .normal{
   position: absolute;
@@ -36,6 +37,7 @@
   height: 60rpx;
   color: floralwhite!important;
   background-color:rgb(171, 170, 238)!important;
+  box-shadow: 0 0 5rpx rgb(171, 170, 238)!important;
 }
 .title{
   position: absolute;
@@ -56,7 +58,7 @@
 .salesYear{
   position: absolute;
   left: 20rpx;
-  top: 741rpx;
+  top: 738rpx;
   height: 150rpx;
   width: 350rpx;
   background-color: rgb(171, 170, 238);
@@ -64,7 +66,7 @@
 .salesMonth{
   position: absolute;
   left: 380rpx;
-  top: 741rpx;
+  top: 738rpx;
   height: 150rpx;
   width: 350rpx;
   background-color: rgb(171, 170, 238);
@@ -73,7 +75,7 @@
   position: absolute;
   left: 20rpx;
   top: 890rpx;
-  height: 500rpx;
+  height: 400rpx;
   width: 350rpx;
   background-color: rgb(237, 237, 243);
   font-size: 29rpx;
@@ -82,30 +84,35 @@
   position: absolute;
   left: 380rpx;
   top: 890rpx;
-  height: 500rpx;
+  height: 400rpx;
   width: 350rpx;
   background-color: rgb(237, 237, 243);
   font-size: 29rpx;
+
 }
 .weak{
   font-size: 28rpx;
 }
-.titlesmall{
+.strong{
+  font-size: 32rpx;
+  font-weight: 700;
+}
+.titlenormal{
   position: absolute;
-  top: -30rpx;
-  left: 89rpx;
+  top: 10rpx;
+  left: 100rpx;
   font-size: 28rpx;
 }
-.titlesmall1{
+.titlesmall{
   position: absolute;
-  top: -30rpx;
-  left: 89rpx;
+  top: -25rpx;
+  left: 92rpx;
   font-size: 28rpx;
 }
 .join1{
   position: absolute;
   left: 50rpx;
-  top: 1450rpx;
+  top: 1310rpx;
   font-size: 0.8rem;
   line-height: 1rem;
   color: aliceblue!important;
@@ -115,7 +122,53 @@
 .join2{
   position: absolute;
   left: 433rpx;
-  top: 1450rpx;
+  top: 1310rpx;
+  font-size: 0.8rem;
+  line-height: 1rem;
+  color: aliceblue!important;
+  background-color: rgb(171, 170, 238)!important;
+  border-radius: 25rpx;
+}
+.openAccount{
+  left: 20rpx;
+  position: absolute;
+  top: 1380rpx;
+}
+.develop{
+  position: absolute;
+  top: 1918rpx;
+  left: 75rpx;
+}
+.inhalt{
+  color: rgb(115, 112, 112);
+  font-size: 30rpx;
+  position: absolute;
+  top: 15rpx;
+  width: 140%;
+  left: 30rpx
+}
+.order{
+  position: absolute;
+  left: 200rpx;
+  top: 470rpx;
+  font-size: 0.8rem;
+  line-height: 1rem;
+  color: aliceblue!important;
+  background-color: rgb(171, 170, 238)!important;
+  border-radius: 25rpx;
+}
+.contentt{
+  top: 18rpx;
+  font-size: 30rpx;
+  position: absolute;
+  width: 185%;
+  left: -30rpx;
+  color: rgb(115, 112, 112);
+}
+.vs{
+  position: absolute;
+  left:120rpx;
+  top: 310rpx;
   font-size: 0.8rem;
   line-height: 1rem;
   color: aliceblue!important;

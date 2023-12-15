@@ -14,7 +14,7 @@
         <view class="aP_info3">动漫大厦B座413室</view> 
     </view> 
     
-        <button class="aP_send"  style="width: 300rpx!important" type='default' bindtap='share4'>发名片</button>
+        <button class="aP_send"  style="width: 300rpx!important" type='default' bindtap='onShareAppMessage'>发名片</button>
         <button class="aP_save"  style="width: 300rpx!important" type='default' bindtap='saveMailList4'>保存到通讯录</button>
     
       

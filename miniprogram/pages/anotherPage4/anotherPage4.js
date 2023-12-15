@@ -1,31 +1,38 @@
 // pages/anotherPage4/anotherPage4.js
 // pages/anotherPage3/anotherPage3.js
 Page({
-  shareFriends4: function(){
-      wx.showShareMenu({
-          withShareTicket: true
-      })
-  },
-  share4: function(){
-      var that = this
-      wx.showModal({
-          content:'分享给好友',
-          success: function(res){
-              if(res.confirm){
-                  console.log('确定分享')
-                  that.shareFriends4();
-              }
-              else{
-                  console.log('取消分享')
-              }
-          }
-      })
-  },
-  code4: function(){
-      wx.showModal({
-          content:'发送名片码',
-      })
-  },
+    shareFriends4: function(){
+        wx.showShareMenu({
+            withShareTicket: true
+        })
+    },
+    onShareAppMessage: function(){
+        const promise = new Promise(resolve => {
+            setTimeout(() => {
+            resolve({
+                title: '逸勉财务李晨'
+            })
+            }, 2000)
+        })
+        return {
+            title: '逸勉财务李晨',
+            path: 'pages/anotherPage4/anotherPage4',
+            promise 
+        }
+    },
+    onShareTimeline() {
+        const promise = new Promise(resolve => {
+        setTimeout(() => {
+            resolve({
+            title: '逸勉财务李晨'
+            })
+        }, 2000)
+        })
+        return {
+        title: '逸勉财务李晨',
+        imageUrl:'http://s59avscau.hd-bkt.clouddn.com/comservice.jpg' 
+        }
+    },
   freeCall4:function(){
       wx.makePhoneCall({
           phoneNumber: '18051963452',

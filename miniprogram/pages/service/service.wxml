@@ -1,0 +1,67 @@
+
+<view class="serviceCover">
+  <image src="http://s59avscau.hd-bkt.clouddn.com/comservice.jpg" class="service_cover"></image>
+</view>
+<view class="tax">
+  <text class="priceList1">代理记账报税价目表</text>
+  <button class="smallscope" bindtap='smallscopeTax' type="default" style="width: 350rpx">小规模纳税人</button>
+  <button class="normal" bindtap='normalTax' type="default" style="width: 350rpx">一般纳税人</button>
+  <view class="small">
+  <view class="title">
+  <text class="titlesmall">\n{{biaoti1}}</text>
+  </view>
+  <view class="salesYear">
+    <text class="weak">按年购买享礼包</text>
+    <text class="strong">\n{{beizhu1}}</text>
+    <text class="weak">\n含12个月记账报税抵扣券</text>
+  </view>
+  <view class="contentSmall">
+    <text >\n开发票据，生成凭证</text>
+    <text >\n 代理记账，专员审核</text>
+    <text >\n 计算税金，纳税申报</text>
+    <text >\n 每月申报员工薪金及个税</text>
+    <text >\n制作财报账册</text>
+    <text >\n实时财务预警信息</text>
+    <text >\n 企业工商年报公示(专享)</text>
+  </view>
+  <button class="join1" bindtap='contactUs' type="default" style="width: 260rpx">立即开通</button>
+</view> 
+<view class="small">
+  <view class="title1">
+  <text class="titlenormal">{{biaoti2}}</text>
+  </view>
+  <view class="salesMonth">
+    <text class="weak">按月支付更灵活</text>
+    <text class="strong">\n{{beizhu2}}</text>
+    <text class="weak">\n即用即付</text>
+  </view>
+  <view class="contentNormal">
+    <text >\n开发票据， 生成凭证</text>
+    <text >\n 代理记账，专员审核</text>
+    <text >\n 计算税金，纳税申报</text>
+    <text >\n每月申报员工薪金及个税</text>
+    <text >\n制作财报账册</text>
+    <text >\n实时财务预警信息</text>
+  </view>
+  <button class="join2" bindtap='contactUs' type="default" style="width: 260rpx">立即开通</button>
+</view> 
+</view>
+<view class="openAccount">
+  <text class="priceList1">下单即享大礼包</text>
+  <text class="inhalt">
+    <text >\n\n  现在起，委托我司代理记账，即送0元注册，高额返税扶持，我们办到直接开业！</text>
+    <text >\n我们与各大银行均有合作，为您开辟专属绿色通道，帮您解决银行开户难题！</text>
+    <text >\n疑难注销、文创数娱孵化器空间租赁等业务我们也可以轻松为您解决！</text>
+    <text >\n此外，我们还为您免费提供在代账期间的财务咨询，包括为贵司设计企业财税顶层架构和量身定制筹划方案！</text>
+  </text>
+  <button class="order" type="default" style="width:270rpx" bindtap='contactUs'>立即下单</button>
+</view>
+
+<view class="develop">
+  <text class="priceList1">新品展示</text>
+  <text class="contentt">
+    \n如今电子化办公逐渐取代纸质化办公的趋势日益明显，我司为紧跟时代发展，推出了代理制作电子名片的新业务。
+    我们可以根据您的需求，设计出高效、易用、安全的电子名片，为贵司提供更好的线上营销工具。
+ </text>
+ <button class="vs" type="default" style="width:350rpx" bindtap='contactUs'>我也要制作电子名片</button>
+</view>

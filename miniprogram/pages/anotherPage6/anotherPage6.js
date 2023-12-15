@@ -5,26 +5,33 @@ Page({
           withShareTicket: true
       })
   },
-  share6: function(){
-      var that = this
-      wx.showModal({
-          content:'分享给好友',
-          success: function(res){
-              if(res.confirm){
-                  console.log('确定分享')
-                  that.shareFriends6();
-              }
-              else{
-                  console.log('取消分享')
-              }
-          }
-      })
-  },
-  code6: function(){
-      wx.showModal({
-          content:'发送名片码',
-      })
-  },
+  onShareAppMessage: function(){
+    const promise = new Promise(resolve => {
+        setTimeout(() => {
+        resolve({
+            title: '逸勉财务王荣祥'
+            })
+            }, 2000)
+        })
+        return {
+            title: '逸勉财务王荣祥',
+            path: 'pages/anotherPage6/anotherPage6',
+            promise 
+        }
+    },
+    onShareTimeline() {
+        const promise = new Promise(resolve => {
+        setTimeout(() => {
+            resolve({
+            title: '逸勉财务王荣祥'
+            })
+        }, 2000)
+        })
+        return {
+        title: '逸勉财务王荣祥',
+        imageUrl:'http://s59avscau.hd-bkt.clouddn.com/comservice.jpg' 
+        }
+    },
   freeCall6:function(){
       wx.makePhoneCall({
           phoneNumber: '13814174916',

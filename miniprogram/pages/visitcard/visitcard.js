@@ -7,7 +7,7 @@ Page({
         withShareTicket: true
     })
   },
-  share: function(){
+  teilen: function(){
     var that = this
     wx.showModal({
         content:'分享给好友',
@@ -22,6 +22,33 @@ Page({
         }
     })
   },
+  onShareAppMessage: function(){
+    const promise = new Promise(resolve => {
+        setTimeout(() => {
+        resolve({
+            title: '逸勉财务App'
+            })
+            }, 2000)
+        })
+        return {
+            title: '逸勉财务App',
+            path: 'pages/index/index',
+            promise 
+        }
+    },
+    onShareTimeline() {
+        const promise = new Promise(resolve => {
+        setTimeout(() => {
+            resolve({
+            title: '逸勉财务App'
+            })
+        }, 2000)
+        })
+        return {
+        title: '逸勉财务App',
+        imageUrl:'http://s59avscau.hd-bkt.clouddn.com/comservice.jpg' 
+        }
+    },
   anotherPage1(){
     wx.navigateTo({
       url: '/pages/anotherPage1/anotherPage1',

@@ -4,26 +4,33 @@ Page({
             withShareTicket: true
         })
     },
-    share: function(){
-        var that = this
-        wx.showModal({
-            content:'分享给好友',
-            success: function(res){
-                if(res.confirm){
-                    console.log('确定分享')
-                    that.shareFriends();
-                }
-                else{
-                    console.log('取消分享')
-                }
-            }
-        })
+    onShareAppMessage: function(){
+        const promise = new Promise(resolve => {
+            setTimeout(() => {
+              resolve({
+                title: '逸勉财务王总名片'
+              })
+            }, 2000)
+          })
+          return {
+            title: '逸勉财务王总名片',
+            path: 'pages/anotherPage1/anotherPage1',
+            promise 
+          }
     },
-    code: function(){
-        wx.showModal({
-            content:'发送名片码',
+    onShareTimeline() {
+        const promise = new Promise(resolve => {
+          setTimeout(() => {
+            resolve({
+              title: '逸勉财务王总名片'
+            })
+          }, 2000)
         })
-    },
+        return {
+          title: '逸勉财务王总名片',
+          imageUrl:'http://s59avscau.hd-bkt.clouddn.com/comservice.jpg' 
+        }
+      },
     freeCall:function(){
         wx.makePhoneCall({
             phoneNumber: '18921427150',
@@ -47,7 +54,7 @@ Page({
     },
     freeCopy: function (){
         wx.setClipboardData({
-            data: 'wxid_vqnm5bcgjuj012',
+            data: '18921427150',
             success(){
                 wx.hideToast();
             }

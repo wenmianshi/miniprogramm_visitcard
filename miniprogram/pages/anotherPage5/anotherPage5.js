@@ -5,26 +5,33 @@ Page({
           withShareTicket: true
       })
   },
-  share5: function(){
-      var that = this
-      wx.showModal({
-          content:'分享给好友',
-          success: function(res){
-              if(res.confirm){
-                  console.log('确定分享')
-                  that.shareFriends5();
-              }
-              else{
-                  console.log('取消分享')
-              }
-          }
-      })
-  },
-  code5: function(){
-      wx.showModal({
-          content:'发送名片码',
-      })
-  },
+  onShareAppMessage: function(){
+    const promise = new Promise(resolve => {
+        setTimeout(() => {
+        resolve({
+            title: '逸勉财务李德慧'
+            })
+            }, 2000)
+        })
+        return {
+            title: '逸勉财务李德慧',
+            path: 'pages/anotherPage5/anotherPage5',
+            promise 
+        }
+    },
+    onShareTimeline() {
+        const promise = new Promise(resolve => {
+        setTimeout(() => {
+            resolve({
+            title: '逸勉财务李德慧'
+            })
+        }, 2000)
+        })
+        return {
+        title: '逸勉财务李德慧',
+        imageUrl:'http://s59avscau.hd-bkt.clouddn.com/comservice.jpg' 
+        }
+    },
   freeCall5:function(){
       wx.makePhoneCall({
           phoneNumber: '18994126285',
@@ -48,7 +55,7 @@ Page({
   },
   freeCopy5: function (){
       wx.setClipboardData({
-          data: 'wxid_a7apdrlbunqm22',
+          data: '18994126285',
           success(){
               wx.hideToast();
           }

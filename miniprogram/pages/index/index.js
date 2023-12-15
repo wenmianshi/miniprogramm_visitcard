@@ -8,16 +8,47 @@ Page({
     autoplay: true,
     interval: 3000,
     circular: true,
+
+    messageyi: "asfkjfoiq",
+    messageer: "efduyaWSGHEFU",
+    messagesan: "efduyaWSjihuyEFU",
+
+    linkyi:"http://s59avscau.hd-bkt.clouddn.com/logo.png",
+    linker:"http://s59avscau.hd-bkt.clouddn.com/telefon.png",
+    linksan:"http://s59avscau.hd-bkt.clouddn.com/logo.png"
   },
+
+  
   onLoad: function () {
 
   },
-  onShareAppMessage() {
-    return {
-      title: 'scroll-view',
-      path: 'page/component/pages/scroll-view/scroll-view'
-    }
-  },
+  onShareAppMessage: function(){
+    const promise = new Promise(resolve => {
+        setTimeout(() => {
+        resolve({
+            title: '逸勉财务App'
+            })
+            }, 2000)
+        })
+        return {
+            title: '逸勉财务App',
+            path: 'pages/index/index',
+            promise 
+        }
+    },
+    onShareTimeline() {
+        const promise = new Promise(resolve => {
+        setTimeout(() => {
+            resolve({
+            title: '逸勉财务App'
+            })
+        }, 2000)
+        })
+        return {
+        title: '逸勉财务App',
+        imageUrl:'http://s59avscau.hd-bkt.clouddn.com/comservice.jpg' 
+        }
+    },
   onReady: function () {
     const arr = []
     for (let i = 0; i < 20; i++) arr.push(i)
@@ -35,24 +66,60 @@ Page({
       url: '/pages/articles/articles',
     })
   },
-  shareFriends: function(){
-    wx.showShareMenu({
-        withShareTicket: true
-    })
+  teil1: function(){
+    this.setData({
+      messageyi: "小规模纳税人",
+      linkyi:"http://s59avscau.hd-bkt.clouddn.com/mama.png"
+    });
+    this.setData({
+      messageer: "小规模纳税人",
+      linker:"http://s59avscau.hd-bkt.clouddn.com/mama.png"
+    });
+    this.setData({
+      messagesan: "小规模纳税人",
+      linksan:"http://s59avscau.hd-bkt.clouddn.com/mama.png"
+    });
   },
-  share: function(){
-    var that = this
-    wx.showModal({
-        content:'分享给好友',
-        success: function(res){
-            if(res.confirm){
-                console.log('确定分享')
-                that.shareFriends();
-            }
-            else{
-                console.log('取消分享')
-            }
-        }
-    })
-  }
+  teil2: function(){
+    this.setData({
+      messageyi: "小规模",
+      linkyi:"http://s59avscau.hd-bkt.clouddn.com/mama.png"
+    });
+    this.setData({
+      messageer: "小规模",
+      linker:"http://s59avscau.hd-bkt.clouddn.com/mama.png"
+    });
+    this.setData({
+      messagesan: "小规模",
+      linksan:"http://s59avscau.hd-bkt.clouddn.com/mama.png"
+    });
+  },
+  teil3: function(){
+    this.setData({
+      messageyi: "纳税人",
+      linkyi:"http://s59avscau.hd-bkt.clouddn.com/mama.png"
+    });
+    this.setData({
+      messageer: "纳税人",
+      linker:"http://s59avscau.hd-bkt.clouddn.com/mama.png"
+    });
+    this.setData({
+      messagesan: "纳税人",
+      linksan:"http://s59avscau.hd-bkt.clouddn.com/mama.png"
+    });
+  },
+  teil4: function(){
+    this.setData({
+      messageyi: "小",
+      linkyi:"http://s59avscau.hd-bkt.clouddn.com/mama.png"
+    });
+    this.setData({
+      messageer: "小",
+      linker:"http://s59avscau.hd-bkt.clouddn.com/mama.png"
+    });
+    this.setData({
+      messagesan: "小",
+      linksan:"http://s59avscau.hd-bkt.clouddn.com/mama.png"
+    });
+  },
 })

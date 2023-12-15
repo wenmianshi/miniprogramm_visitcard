@@ -5,25 +5,32 @@ Page({
           withShareTicket: true
       })
   },
-  share3: function(){
-      var that = this
-      wx.showModal({
-          content:'分享给好友',
-          success: function(res){
-              if(res.confirm){
-                  console.log('确定分享')
-                  that.shareFriends3();
-              }
-              else{
-                  console.log('取消分享')
-              }
-          }
+  onShareAppMessage: function(){
+    const promise = new Promise(resolve => {
+        setTimeout(() => {
+          resolve({
+            title: '逸勉财务裴会计'
+          })
+        }, 2000)
       })
-  },
-  code3: function(){
-      wx.showModal({
-          content:'发送名片码',
-      })
+      return {
+        title: '逸勉财务裴会计',
+        path: 'pages/anotherPage3/anotherPage3',
+        promise 
+      }
+},
+onShareTimeline() {
+    const promise = new Promise(resolve => {
+      setTimeout(() => {
+        resolve({
+          title: '逸勉财务裴会计'
+        })
+      }, 2000)
+    })
+    return {
+      title: '逸勉财务裴会计',
+      imageUrl:'http://s59avscau.hd-bkt.clouddn.com/comservice.jpg' 
+    }
   },
   freeCall3:function(){
       wx.makePhoneCall({
@@ -48,7 +55,7 @@ Page({
   },
   freeCopy3: function (){
       wx.setClipboardData({
-          data: 'wxid_sdgtnzvw2ku622',
+          data: '13770805316',
           success(){
               wx.hideToast();
           }
