@@ -1,24 +1,24 @@
 Page({
   data: {
-    biaoti1: "一般纳税人",
-    biaoti2: "一般纳税人",
-    beizhu1: "税务代理记账88元每月",
-    beizhu2: "税务代理记账108元每月"
+    biaoti1: "小规模纳税人",
+    biaoti2: "小规模纳税人",
+    beizhu1: "税务代理记账198元每月",
+    beizhu2: "税务代理记账208元每月"
   },
   smallscopeTax: function() {
     this.setData({
       biaoti1: "小规模纳税人",
       biaoti2: "小规模纳税人",
-      beizhu1: "税务代理记账88元每月",
-      beizhu2: "税务代理记账108元每月"
+      beizhu1: "税务代理记账198元每月",
+      beizhu2: "税务代理记账208元每月"
     });
   },
   normalTax: function() {
     this.setData({
       biaoti1: "一般纳税人",
       biaoti2: "一般纳税人",
-      beizhu1: "税务代理记账188元每月",
-      beizhu2: "税务代理记账208元每月"
+      beizhu1: "税务代理记账598元每月",
+      beizhu2: "税务代理记账608元每月"
     });
   },
   contactUs(){

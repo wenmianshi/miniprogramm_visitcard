@@ -23,61 +23,21 @@
   text-shadow: rgba(77, 83, 83, 0.711) 0 0 2rpx;
   color: rgb(86, 89, 92);
 }
-.logo{
-  /**border-radius 绝对定位**/
-  position: absolute;
-  width: 25rpx;
-  height: 25rpx; 
-  top: 20rpx;
-  left: 20rpx;
-  border-radius: 4rpx;
-}
-.companyName{
-  /**border-radius 绝对定位**/
-  position: absolute;
-  font-weight: 550; 
-  color:rgb(99, 97, 97);
-  font-size: 20rpx;
-  text-align: left;
-  top: 20rpx;
-  left: 55rpx;
-}
-.boss{
-  position: absolute;
-  width: 220rpx;
-  height: 300rpx;
-  top:0%;
-  left: 310rpx;
-  border-radius: 10rpx;
-  
-}
-.name{
-  position: absolute;
-  font-weight: 600; 
-  color:rgb(30, 29, 29);
-  font-size: 40rpx;
-  text-align: left;
-  top: 75rpx;
-  left: 80rpx;
-}
-.title{
-  position: absolute;
-  font-weight:600; 
-  color: #827f7f;
-  font-size: 23rpx;
-  text-align: left;
-  top: 130rpx;
-  left: 99rpx;
+
+.news{
+  position: relative;
+  top: 10rpx;
 }
 .checkAll{
   position: absolute;
+  top: 10rpx;
   font-size: 27rpx;
   color: #322f2f;
   font-weight: 500;
 }
 .checkAl{
   position: absolute;
-  top: 854.5rpx;
+  top: -1rpx;
   left: 670rpx;
   font-size: 39rpx;
   color: #5e5b5b;
@@ -117,21 +77,21 @@
 }
 .coverArticles{
   position: absolute;
-  top: 1028rpx;
+  top: 105rpx;
   height: 160rpx;
   width: 800rpx;
   background-color: rgb(246, 254, 254);
 }
 .coverArticles1{
   position: absolute;
-  top: 1183rpx;
+  top: 265rpx;
   height: 160rpx;
   width: 800rpx;
   background-color: rgb(246, 254, 254);
 }
 .coverArticles2{
   position: absolute;
-  top: 1340rpx;
+  top: 420rpx;
   height: 160rpx;
   width: 800rpx;
   background-color: rgb(246, 254, 254);

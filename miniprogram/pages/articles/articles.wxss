@@ -1,35 +1,38 @@
 
 .part1{
   position: absolute;
-  top: 980rpx;
+  top: 1070rpx;
   left: 15rpx;
   font-size: 31rpx;
 }
 .part2{
   position: absolute;
-  top: 980rpx;
+  top: 1070rpx;
   left: 235rpx;
   font-size: 31rpx;
 }
 .part3{
   position: absolute;
-  top: 980rpx;
+  top: 1070rpx;
   left: 400rpx;
   font-size: 31rpx;
 }
 .part4{
   position: absolute;
-  top: 980rpx;
+  top: 1070rpx;
   left: 575rpx;
   font-size: 31rpx;
 }
 .smallCover{
+  position: relative;
+  top: -950rpx;
   height: 60rpx;
   width: 800rpx;
   background-color: rgb(250, 252, 252);
 }
 .coverArticles{
-  position: relative;
+  position: absolute;
+  top: 190rpx;
   height: 160rpx;
   width: 800rpx;
   background-color: rgb(246, 254, 254);
@@ -45,11 +48,12 @@
   position: relative;
   top: -100rpx;
   font-size: 28rpx;
-  left: 30rpx;
+  margin-left: 50rpx;
+  right: 30rpx;
 }
 .wl{
   position: relative;
-  top: -75rpx;
+  top: -90rpx;
   left: 200rpx;
   font-size: 0.83rem;
   line-height: 1rem;
@@ -61,13 +65,85 @@
   background-color: #7dc6ea!important;
 }
 .coverArticles1{
-  position: relative;
+  position: absolute;
+  top: 351rpx;
   height: 160rpx;
   width: 800rpx;
   background-color: rgb(246, 254, 254);
 }
 .coverArticles2{
-  position: relative;
+  position: absolute;
+  top: 511rpx;
+  height: 160rpx;
+  width: 800rpx;
+  background-color: rgb(246, 254, 254);
+}
+.coverArticles3{
+  position: absolute;
+  top: 671rpx;
+  height: 160rpx;
+  width: 800rpx;
+  background-color: rgb(246, 254, 254);
+}
+.coverArticles4{
+  position: absolute;
+  top: 831rpx;
+  height: 160rpx;
+  width: 800rpx;
+  background-color: rgb(246, 254, 254);
+}
+.coverArticles5{
+  position: absolute;
+  top: 991rpx;
+  height: 160rpx;
+  width: 800rpx;
+  background-color: rgb(246, 254, 254);
+}
+.coverArticles6{
+  position: absolute;
+  top: 1151rpx;
+  height: 160rpx;
+  width: 800rpx;
+  background-color: rgb(246, 254, 254);
+}
+.coverArticles7{
+  position: absolute;
+  top: 1311rpx;
+  height: 160rpx;
+  width: 800rpx;
+  background-color: rgb(246, 254, 254);
+}
+.coverArticles8{
+  position: absolute;
+  top: 1471rpx;
+  height: 160rpx;
+  width: 800rpx;
+  background-color: rgb(246, 254, 254);
+}
+.coverArticles9{
+  position: absolute;
+  top: 1631rpx;
+  height: 160rpx;
+  width: 800rpx;
+  background-color: rgb(246, 254, 254);
+}
+.coverArticles10{
+  position: absolute;
+  top: 1791rpx;
+  height: 160rpx;
+  width: 800rpx;
+  background-color: rgb(246, 254, 254);
+}
+.coverArticles11{
+  position: absolute;
+  top: 1951rpx;
+  height: 160rpx;
+  width: 800rpx;
+  background-color: rgb(246, 254, 254);
+}
+.coverArticles12{
+  position: absolute;
+  top: 1951rpx;
   height: 160rpx;
   width: 800rpx;
   background-color: rgb(246, 254, 254);

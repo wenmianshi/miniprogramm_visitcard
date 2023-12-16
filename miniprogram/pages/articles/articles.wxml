@@ -8,23 +8,104 @@
 </view>
 <view class="coverArticles">
     <block class="policy" bindtap='policies' >
-       <image src="http://s59avscau.hd-bkt.clouddn.com/com6.jpg" class="p1" bindtap='policies'></image> 
-       <text class="wenben">十二月政策新规请知悉</text>
+       <image src="http://s59avscau.hd-bkt.clouddn.com/one.gif" class="p1" bindtap='policies'></image> 
+       <text class="wenben">事关养老！12月31日前办理，才能享受 </text>
+        <text space="ensp" class="wenben"> \n               这项个税优惠→</text>
        <button class="wl" style="width: 150rpx !important;" type="default" bindtap='weiterleiten'>转发</button>
     </block>
 </view>
 <view class="coverArticles1">
     <block class="policy" bindtap='policies1' >
-       <image src="http://s59avscau.hd-bkt.clouddn.com/com6.jpg" class="p1" bindtap='policies'></image> 
-       <text class="wenben">十二月政策新规请知悉</text>
+       <image src="http://s59avscau.hd-bkt.clouddn.com/twoo.png" class="p1" bindtap='policies'></image> 
+       <text class="wenben">事关钱袋子！2024年度个税专项附加扣</text>
+       <text space="ensp" class="wenben"> \n               除信息确认开始啦~</text>
        <button class="wl" style="width: 150rpx !important;" type="default" bindtap='weiterleiten1'>转发</button>
     </block>
 </view>
 <view class="coverArticles2">
     <block class="policy" bindtap='policies2' >
-       <image src="http://s59avscau.hd-bkt.clouddn.com/com6.jpg" class="p1" bindtap='policies'></image> 
-       <text class="wenben">十二月政策新规请知悉</text>
+       <image src="http://s59avscau.hd-bkt.clouddn.com/three.png" class="p1" bindtap='policies'></image> 
+       <text class="wenben">惠企政策查询+申报，宁企通“一站”</text>
+       <text space="ensp" class="wenben"> \n               汇聚！</text>
        <button class="wl" style="width: 150rpx !important;" type="default" bindtap='weiterleiten2'>转发</button>
     </block>
 </view>
-
+<view class="coverArticles3">
+    <block class="policy" bindtap='policies2' >
+       <image src="http://s59avscau.hd-bkt.clouddn.com/four.png" class="p1" bindtap='policies'></image> 
+       <text class="wenben">第一次有人把劳务派遣和劳务分包的！</text>
+       <text space="ensp" class="wenben"> \n               区别，讲的这么清楚！真的太好懂了</text>
+       <button class="wl" style="width: 150rpx !important;" type="default" bindtap='weiterleiten2'>转发</button>
+    </block>
+</view>
+<view class="coverArticles4">
+    <block class="policy" bindtap='policies2' >
+       <image src="http://s59avscau.hd-bkt.clouddn.com/four.jpeg" class="p1" bindtap='policies'></image> 
+       <text class="wenben">税务局提醒：2023年12月31日前，这</text>
+       <text space="ensp" class="wenben"> \n               项费用必须完成补缴，否则加收滞纳金！</text>
+       <button class="wl" style="width: 150rpx !important;" type="default" bindtap='weiterleiten2'>转发</button>
+    </block>
+</view>
+<view class="coverArticles5">
+    <block class="policy" bindtap='policies2' >
+       <image src="http://s59avscau.hd-bkt.clouddn.com/five.png" class="p1" bindtap='policies'></image> 
+       <text class="wenben">2024年专项附加扣除开始确认！财务请</text>
+       <text space="ensp" class="wenben"> \n               马上转给全体员工！12月31日前必须完</text>
+       <text space="ensp" class="wenben"> \n               成！否则影响明年到手工资！</text>
+       <button class="wl" style="width: 150rpx !important;" type="default" bindtap='weiterleiten2'>转发</button>
+    </block>
+</view>
+<view class="coverArticles6">
+    <block class="policy" bindtap='policies2' >
+       <image src="http://s59avscau.hd-bkt.clouddn.com/sixxx.png" class="p1" bindtap='policies'></image> 
+       <text class="wenben">进销不匹配，严查！</text>
+       <button class="wl" style="width: 150rpx !important;" type="default" bindtap='weiterleiten2'>转发</button>
+    </block>
+</view>
+<view class="coverArticles7">
+    <block class="policy" bindtap='policies2' >
+       <image src="http://s59avscau.hd-bkt.clouddn.com/seven.png" class="p1" bindtap='policies'></image> 
+       <text class="wenben">科普：小规模纳税人和一般人纳税人</text>
+       <button class="wl" style="width: 150rpx !important;" type="default" bindtap='weiterleiten2'>转发</button>
+    </block>
+</view>
+<view class="coverArticles8">
+    <block class="policy" bindtap='policies2' >
+       <image src="http://s59avscau.hd-bkt.clouddn.com/four.jpeg" class="p1" bindtap='policies'></image> 
+       <text class="wenben">个人营业执照网上申请，个体工商户营​</text>
+       <text space="ensp" class="wenben"> \n               业执照需要什么材料，一个人可以申请</text>
+       <text space="ensp" class="wenben"> \n               几个个体户呢？</text>
+       <button class="wl" style="width: 150rpx !important;" type="default" bindtap='weiterleiten2'>转发</button>
+    </block>
+</view>
+<view class="coverArticles9">
+    <block class="policy" bindtap='policies2' >
+       <image src="http://s59avscau.hd-bkt.clouddn.com/nine.jpeg" class="p1" bindtap='policies'></image> 
+       <text class="wenben">大学生创业税费优惠政策</text>
+       <button class="wl" style="width: 150rpx !important;" type="default" bindtap='weiterleiten2'>转发</button>
+    </block>
+</view>
+<view class="coverArticles10">
+    <block class="policy" bindtap='policies2' >
+       <image src="http://s59avscau.hd-bkt.clouddn.com/eight.png" class="p1" bindtap='policies'></image> 
+       <text class="wenben">2024年1月1日起实施！《企业知识产权</text>
+       <text space="ensp" class="wenben"> \n               合规管理体系 要求》标准换版</text>
+       <button class="wl" style="width: 150rpx !important;" type="default" bindtap='weiterleiten2'>转发</button>
+    </block>
+</view>
+<view class="coverArticles11">
+    <block class="policy" bindtap='policies2' >
+       <image src="http://s59avscau.hd-bkt.clouddn.com/four.jpeg" class="p1" bindtap='policies'></image> 
+       <text class="wenben">超出营业执照经营范围可以开票吗？国</text>
+       <text space="ensp" class="wenben"> \n               家税务总局正式回复！</text>
+       <button class="wl" style="width: 150rpx !important;" type="default" bindtap='weiterleiten2'>转发</button>
+    </block>
+</view>
+<view class="coverArticles12">
+    <block class="policy" bindtap='policies2' >
+       <image src="http://s59avscau.hd-bkt.clouddn.com/jishu.png" class="p1" bindtap='policies'></image> 
+       <text class="wenben">【涨知识】享受技术转让、技术开发免</text>
+       <text space="ensp" class="wenben"> \n               征增值税，这些要点请注意</text>
+       <button class="wl" style="width: 150rpx !important;" type="default" bindtap='weiterleiten2'>转发</button>
+    </block>
+</view>

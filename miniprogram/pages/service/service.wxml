@@ -56,12 +56,3 @@
   </text>
   <button class="order" type="default" style="width:270rpx" bindtap='contactUs'>立即下单</button>
 </view>
-
-<view class="develop">
-  <text class="priceList1">新品展示</text>
-  <text class="contentt">
-    \n如今电子化办公逐渐取代纸质化办公的趋势日益明显，我司为紧跟时代发展，推出了代理制作电子名片的新业务。
-    我们可以根据您的需求，设计出高效、易用、安全的电子名片，为贵司提供更好的线上营销工具。
- </text>
- <button class="vs" type="default" style="width:350rpx" bindtap='contactUs'>我也要制作电子名片</button>
-</view>
