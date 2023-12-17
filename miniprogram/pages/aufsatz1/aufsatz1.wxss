@@ -1,0 +1,32 @@
+.a1{
+    position: absolute;
+    top: 180rpx;
+    height: 8700rpx;
+    width: 750rpx;
+}
+.a1__title1{
+    position: absolute;
+    font-size: 38rpx;
+    font-weight: 550;
+    margin-left: 45rpx;
+    margin-right: 20rpx;
+    margin-top: 25rpx;
+}
+.a1_cover{
+    position: relative;
+    height: 200rpx;
+    width: 750rpx;
+    position: relative;
+    margin-left: 0rpx;
+    margin-right: 20rpx;
+    margin-top: 0rpx;
+    background-color: #fff;
+}
+.a1__title2{
+    position: absolute;
+    font-size: 27rpx;
+    font-weight: 300;
+    margin-left: 45rpx;
+    margin-right: 20rpx;
+    margin-top: 105rpx;
+}

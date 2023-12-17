@@ -113,7 +113,7 @@
 }
 .wl{
   position: absolute;
-  top: 80rpx;
+  top: 97rpx;
   left: 550rpx;
   font-size: 0.83rem;
   line-height: 1rem;

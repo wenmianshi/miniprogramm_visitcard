@@ -10,7 +10,20 @@
     "pages/anotherPage5/anotherPage5",
     "pages/anotherPage6/anotherPage6",
     "pages/articles/articles",
-    "pages/contact/contact"
+    "pages/aufsatz1/aufsatz1",
+    "pages/aufsatz2/aufsatz2",
+    "pages/aufsatz3/aufsatz3",
+    "pages/aufsatz4/aufsatz4",
+    "pages/aufsatz5/aufsatz5",
+    "pages/aufsatz6/aufsatz6",
+    "pages/aufsatz7/aufsatz7",
+    "pages/aufsatz8/aufsatz8",
+    "pages/aufsatz9/aufsatz9",
+    "pages/aufsatz10/aufsatz10",
+    "pages/aufsatz11/aufsatz11",
+    "pages/aufsatz12/aufsatz12",
+    "pages/aufsatz13/aufsatz13"
+
   ],
   "window": {
     "backgroundColor": "#FFFFFF",

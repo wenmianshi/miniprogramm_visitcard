@@ -56,9 +56,12 @@
     <view class="coverArticles">
         <block class="policy" bindtap='policies' >
             <text >\n</text>
+        <view class="article1" bindtap='aufsatz1'>
         <image src="{{linkyi}}" class="p1" bindtap='policies'></image> 
         <text class="wenben">{{messageyi}}</text>
+        <text class="wenben">{{messageyiyi}}</text>
         <button class="wl" style="width: 150rpx !important;" type="default" bindtap='weiterleiten'>转发</button>
+        </view>
         </block>
     </view>
     <view class="coverArticles1">
@@ -66,6 +69,7 @@
             <text >\n</text>
         <image src="{{linker}}" class="p1" bindtap='policies'></image> 
         <text class="wenben">{{messageer}}</text>
+        <text class="wenben">{{messageerer}}</text>
         <button class="wl" style="width: 150rpx !important;" type="default" bindtap='weiterleiten1'>转发</button>
         </block>
     </view>
@@ -74,6 +78,7 @@
             <text >\n</text>
         <image src="{{linksan}}" class="p1" bindtap='policies'></image> 
         <text class="wenben">{{messagesan}}</text>
+        <text class="wenben">{{messagesansan}}</text>
         <button class="wl" style="width: 150rpx !important;" type="default" bindtap='weiterleiten2'>转发</button>
         </block>
     </view>

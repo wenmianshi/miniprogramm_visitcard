@@ -24,7 +24,7 @@
     <text >\n实时财务预警信息</text>
     <text >\n 企业工商年报公示(专享)</text>
   </view>
-  <button class="join1" bindtap='contactUs' type="default" style="width: 260rpx">立即开通</button>
+  <button class="join1" open-type="contact" bindcontact="handleContact" type="default" style="width: 260rpx">立即开通</button>
 </view> 
 <view class="small">
   <view class="title1">
@@ -43,7 +43,7 @@
     <text >\n制作财报账册</text>
     <text >\n实时财务预警信息</text>
   </view>
-  <button class="join2" bindtap='contactUs' type="default" style="width: 260rpx">立即开通</button>
+  <button class="join2" open-type="contact" bindcontact="handleContact" type="default" style="width: 260rpx">立即开通</button>
 </view> 
 </view>
 <view class="openAccount">
@@ -54,5 +54,5 @@
     <text >\n疑难注销、文创数娱孵化器空间租赁等业务我们也可以轻松为您解决！</text>
     <text >\n此外，我们还为您免费提供在代账期间的财务咨询，包括为贵司设计企业财税顶层架构和量身定制筹划方案！</text>
   </text>
-  <button class="order" type="default" style="width:270rpx" bindtap='contactUs'>立即下单</button>
+  <button class="order" type="default" style="width:270rpx" open-type="contact" bindcontact="handleContact">立即下单</button>
 </view>
