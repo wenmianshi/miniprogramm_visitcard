@@ -5,29 +5,16 @@ Page({
         })
     },
     onShareAppMessage: function(){
-        const promise = new Promise(resolve => {
-            setTimeout(() => {
-              resolve({
-                title: '逸勉财务王总名片'
-              })
-            }, 2000)
-          })
-          return {
+        return {
             title: '逸勉财务王总名片',
             path: 'pages/anotherPage1/anotherPage1',
-            promise 
-          }
+            imageUrl:'http://s59avscau.hd-bkt.clouddn.com/comservice.jpg' 
+            }  
     },
-    onShareTimeline() {
-        const promise = new Promise(resolve => {
-          setTimeout(() => {
-            resolve({
-              title: '逸勉财务王总名片'
-            })
-          }, 2000)
-        })
+    onShareTimeline: function() {
         return {
           title: '逸勉财务王总名片',
+          path: 'pages/anotherPage1/anotherPage1',
           imageUrl:'http://s59avscau.hd-bkt.clouddn.com/comservice.jpg' 
         }
       },

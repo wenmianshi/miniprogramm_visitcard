@@ -1,4 +1,75 @@
-
+.yi{
+  position: absolute;
+  top: 120rpx;
+  left: 210rpx;
+  right: 90rpx;
+}
+.er{
+  position: absolute;
+  top: 120rpx;
+  left: 210rpx;
+  right: 90rpx;
+}
+.san{
+  position: absolute;
+  top: 120rpx;
+  left: 210rpx;
+  right: 90rpx;
+}
+.si{
+  position: absolute;
+  top: 120rpx;
+  left: 210rpx;
+  right: 90rpx;
+}
+.wu{
+  position: absolute;
+  top: 120rpx;
+  left: 210rpx;
+  right: 90rpx;
+}
+.liu{
+  position: absolute;
+  top: 120rpx;
+  left: 210rpx;
+  right: 90rpx;
+}
+.qi{
+  position: absolute;
+  top: 120rpx;
+  left: 210rpx;
+  right: 90rpx;
+}
+.ba{
+  position: absolute;
+  top: 120rpx;
+  left: 210rpx;
+  right: 90rpx;
+}
+.jiu{
+  position: absolute;
+  top: 120rpx;
+  left: 210rpx;
+  right: 90rpx;
+}
+.shi{
+  position: absolute;
+  top: 120rpx;
+  left: 210rpx;
+  right: 90rpx;
+}
+.shiyi{
+  position: absolute;
+  top: 120rpx;
+  left: 210rpx;
+  right: 90rpx;
+}
+.shier{
+  position: absolute;
+  top: 120rpx;
+  left: 210rpx;
+  right: 90rpx;
+}
 .part1{
   position: absolute;
   top: 1070rpx;
@@ -53,7 +124,7 @@
 }
 .wl{
   position: absolute;
-  top: 100rpx;
+  top: 105rpx;
   left: 550rpx;
   font-size: 0.83rem;
   line-height: 1rem;
@@ -143,7 +214,7 @@
 }
 .coverArticles12{
   position: absolute;
-  top: 1951rpx;
+  top: 2111rpx;
   height: 160rpx;
   width: 800rpx;
   background-color: rgb(246, 254, 254);

@@ -1,0 +1,28 @@
+.a12{
+    position: relative;
+    width: 750rpx;
+    height: 10800rpx;
+    top: 180rpx;
+}
+.a12_cover{
+    position: absolute;
+    height: 180rpx;
+    width: 750rpx;
+    background-color: #fff;
+}
+.a12__title1{
+    position: absolute;
+    top: 20rpx;
+    margin-left: 30rpx;
+    margin-right: 20rpx;
+    font-size: 35rpx;
+    font-weight: 550;
+}
+.a12__title2{
+    position: absolute;
+    margin-left: 30rpx;
+    margin-right: 30rpx;
+    top: 85rpx;
+    font-size: 27rpx;
+    font-weight: 300;
+}

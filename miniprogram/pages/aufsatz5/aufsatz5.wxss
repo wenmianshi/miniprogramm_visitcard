@@ -1,0 +1,31 @@
+.a5{
+    position: absolute;
+    width: 750rpx;
+    height: 3800rpx;
+    top: 180rpx;
+    display: block;
+}
+.a5_cover{
+    
+    position: relative;
+    height: 180rpx;
+    width: 750rpx;
+    top: 0rpx;
+    background-color: #fff;
+}
+.a5__title1{
+    position: absolute;
+    top: 20rpx;
+    margin-left: 30rpx;
+    margin-right: 20rpx;
+    font-size: 35rpx;
+    font-weight: 550;
+}
+.a5__title2{
+    position: absolute;
+    margin-left: 30rpx;
+    margin-right: 30rpx;
+    top: 85rpx;
+    font-size: 27rpx;
+    font-weight: 300;
+}

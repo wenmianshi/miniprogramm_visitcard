@@ -5,31 +5,18 @@ Page({
       })
   },
   onShareAppMessage: function(){
-    const promise = new Promise(resolve => {
-        setTimeout(() => {
-          resolve({
-            title: '逸勉财务刘会计'
-          })
-        }, 2000)
-      })
       return {
         title: '逸勉财务刘会计',
         path: 'pages/anotherPage2/anotherPage2',
-        promise 
+        imageUrl:'http://s59avscau.hd-bkt.clouddn.com/comservice.jpg'  
       }
-},
-onShareTimeline() {
-    const promise = new Promise(resolve => {
-      setTimeout(() => {
-        resolve({
-          title: '逸勉财务刘会计'
-        })
-      }, 2000)
-    })
-    return {
-      title: '逸勉财务刘会计',
-      imageUrl:'http://s59avscau.hd-bkt.clouddn.com/comservice.jpg' 
-    }
+    },
+    onShareTimeline: function() {
+        return {
+            title: '逸勉财务刘会计',
+            path: 'pages/anotherPage2/anotherPage2',
+            imageUrl:'http://s59avscau.hd-bkt.clouddn.com/comservice.jpg' 
+        }
   },
   freeCall2:function(){
       wx.makePhoneCall({

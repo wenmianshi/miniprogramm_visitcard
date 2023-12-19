@@ -168,6 +168,7 @@
   height: 55rpx;
 }
 .aP_introduction{
+  
   font-size: 34rpx;
   font-weight: 550;
   margin-left: 25rpx;
@@ -180,4 +181,9 @@
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   text-shadow: rgba(77, 83, 83, 0.711) 0 0 2rpx;
   color: rgb(86, 89, 92);
+}
+.meAndTeam{
+  width: 700rpx;
+  height: 450rpx;
+  margin-left: 25rpx;
 }

@@ -15,6 +15,11 @@
     position: relative;
     margin: 30rpx;
   }
+  .meAndTeam{
+    width: 700rpx;
+    height: 450rpx;
+    margin-left: 25rpx;
+  }
   .aP_logo{
     /**border-radius 绝对定位**/
     position: absolute;

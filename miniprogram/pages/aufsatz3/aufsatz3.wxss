@@ -1,0 +1,33 @@
+.a3{
+    position: relative;
+    width: 750rpx;
+    height: 8800rpx;
+    top: 410rpx;
+}
+.a31{
+    position: absolute;
+    top: 110rpx;
+    width: 750rpx;
+    height: 320rpx;
+}
+.a3_cover{
+    position: absolute;
+    height: 110rpx;
+    width: 750rpx;
+    background-color: #fff;
+}
+.a3__title1{
+    position: absolute;
+    top: 20rpx;
+    margin-left: 45rpx;
+    margin-right: 20rpx;
+    font-size: 35rpx;
+    font-weight: 550;
+}
+.a3__title2{
+    position: absolute;
+    margin-left: 45rpx;
+    top: 43rpx;
+    font-size: 27rpx;
+    font-weight: 300;
+}

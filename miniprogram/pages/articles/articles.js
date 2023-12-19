@@ -11,6 +11,20 @@ Page({
   onLoad: function () {
 
   },
+  onShareAppMessage: function(){
+    return {
+        title: '逸勉财务App',
+        path: 'pages/articles/articles',
+        imageUrl:'http://s59avscau.hd-bkt.clouddn.com/comservice.jpg'   
+    }
+  },
+  onShareTimeline: function() {
+    return {
+        title: '逸勉财务App',
+        path: 'pages/articles/articles',
+        imageUrl:'http://s59avscau.hd-bkt.clouddn.com/comservice.jpg' 
+    }
+  },
   aufsatz1() {
     wx.navigateTo({
       url: '/pages/aufsatz1/aufsatz1',

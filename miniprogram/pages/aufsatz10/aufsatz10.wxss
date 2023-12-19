@@ -1,0 +1,28 @@
+.a10{
+    position: relative;
+    width: 750rpx;
+    height: 3300rpx;
+    top: 130rpx;
+}
+.a10_cover{
+    position: absolute;
+    height: 130rpx;
+    width: 750rpx;
+    background-color: #fff;
+}
+.a10__title1{
+    position: absolute;
+    top: 20rpx;
+    margin-left: 30rpx;
+    margin-right: 20rpx;
+    font-size: 35rpx;
+    font-weight: 550;
+}
+.a10__title2{
+    position: absolute;
+    margin-left: 30rpx;
+    margin-right: 30rpx;
+    top: 55rpx;
+    font-size: 27rpx;
+    font-weight: 300;
+}

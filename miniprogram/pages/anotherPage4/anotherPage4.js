@@ -7,29 +7,16 @@ Page({
         })
     },
     onShareAppMessage: function(){
-        const promise = new Promise(resolve => {
-            setTimeout(() => {
-            resolve({
-                title: '逸勉财务李晨'
-            })
-            }, 2000)
-        })
         return {
             title: '逸勉财务李晨',
             path: 'pages/anotherPage4/anotherPage4',
-            promise 
+            imageUrl:'http://s59avscau.hd-bkt.clouddn.com/comservice.jpg' 
         }
     },
-    onShareTimeline() {
-        const promise = new Promise(resolve => {
-        setTimeout(() => {
-            resolve({
-            title: '逸勉财务李晨'
-            })
-        }, 2000)
-        })
+    onShareTimeline: function() {
         return {
         title: '逸勉财务李晨',
+        path: 'pages/anotherPage4/anotherPage4',
         imageUrl:'http://s59avscau.hd-bkt.clouddn.com/comservice.jpg' 
         }
     },

@@ -1,5 +1,7 @@
 const app = getApp()
 const order = ['demo1', 'demo2', 'demo3', 'demo4', 'demo5', 'demo6']
+var globalArticlePageSelection = 1;
+
 Page({
   data:{
     indicator_dots:true,
@@ -8,6 +10,8 @@ Page({
     autoplay: true,
     interval: 3000,
     circular: true,
+
+    partSelected: 1,
 
     messageyi: "事关养老！12月31日前办理，才能享受",
     messageyiyi: "\n这项个税优惠→",
@@ -26,31 +30,18 @@ Page({
 
   },
   onShareAppMessage: function(){
-    const promise = new Promise(resolve => {
-        setTimeout(() => {
-        resolve({
-            title: '逸勉财务App'
-            })
-            }, 2000)
-        })
-        return {
-            title: '逸勉财务App',
-            path: 'pages/index/index',
-            promise 
-        }
-    },
-    onShareTimeline() {
-        const promise = new Promise(resolve => {
-        setTimeout(() => {
-            resolve({
-            title: '逸勉财务App'
-            })
-        }, 2000)
-        })
-        return {
+    return {
         title: '逸勉财务App',
+        path: 'pages/index/index',
         imageUrl:'http://s59avscau.hd-bkt.clouddn.com/comservice.jpg' 
-        }
+    }
+    },
+  onShareTimeline: function() {
+    return {
+      title: '逸勉财务App',
+      path: 'pages/index/index',
+      imageUrl:'http://s59avscau.hd-bkt.clouddn.com/comservice.jpg' 
+    }
     },
   onReady: function () {
     const arr = []
@@ -69,7 +60,65 @@ Page({
       url: '/pages/articles/articles',
     })
   },
+  auf1: function() {
+    if (globalArticlePageSelection == 1) {
+      wx.navigateTo({
+        url: '/pages/aufsatz1/aufsatz1',
+      })
+    } else if (globalArticlePageSelection == 2) {
+      wx.navigateTo({
+        url: '/pages/aufsatz5/aufsatz5',
+      })
+    } else if (globalArticlePageSelection == 3) {
+      wx.navigateTo({
+        url: '/pages/aufsatz8/aufsatz8',
+      })
+    } else if (globalArticlePageSelection == 4) {
+      wx.navigateTo({
+        url: '/pages/aufsatz11/aufsatz11',
+      })
+    }
+  },
+  auf2: function() {
+    if (globalArticlePageSelection == 1) {
+      wx.navigateTo({
+        url: '/pages/aufsatz2/aufsatz2',
+      })
+    } else if (globalArticlePageSelection == 2) {
+      wx.navigateTo({
+        url: '/pages/aufsatz6/aufsatz6',
+      })
+    } else if (globalArticlePageSelection == 3) {
+      wx.navigateTo({
+        url: '/pages/aufsatz9/aufsatz9',
+      })
+    } else if (globalArticlePageSelection == 4) {
+      wx.navigateTo({
+        url: '/pages/aufsatz12/aufsatz12',
+      })
+    }
+  },
+  auf3: function() {
+    if (globalArticlePageSelection == 1) {
+      wx.navigateTo({
+        url: '/pages/aufsatz3/aufsatz3',
+      })
+    } else if (globalArticlePageSelection == 2) {
+      wx.navigateTo({
+        url: '/pages/aufsatz7/aufsatz7',
+      })
+    } else if (globalArticlePageSelection == 3) {
+      wx.navigateTo({
+        url: '/pages/aufsatz12/aufsatz12',
+      })
+    } else if (globalArticlePageSelection == 4) {
+      wx.navigateTo({
+        url: '/pages/aufsatz13/aufsatz13',
+      })
+    }
+  },
   teil1: function(){
+    globalArticlePageSelection = 1;
     this.setData({
       messageyi: "事关养老！12月31日前办理，才能享受",
       messageyiyi: "\n这项个税优惠→",
@@ -87,15 +136,16 @@ Page({
     });
   },
   teil2: function(){
+    globalArticlePageSelection = 2;
     this.setData({
       messageyi: "税务局提醒：2023年12月31日前，这项费用",
       messageyiyi: "\n必须完成补缴，否则加收滞纳金！",
       linkyi:"http://s59avscau.hd-bkt.clouddn.com/four.jpeg"
     });
     this.setData({
-      messageer: "2024年专项附加扣除开始确认！财务请马上",
-      messageerer: "\n转给全体员工！12月31日前必须完成！",
-      linker:"http://s59avscau.hd-bkt.clouddn.com/five.png"
+      messageer: "增值税进项税额转出6大知识点",
+      messageerer: "\n",
+      linker:"http://s59avscau.hd-bkt.clouddn.com/liu.png"
     });
     this.setData({
       messagesan: "进销不匹配，严查！",
@@ -104,6 +154,7 @@ Page({
     });
   },
   teil3: function(){
+    globalArticlePageSelection = 3;
     this.setData({
       messageyi: "科普：小规模纳税人和一般人纳税人",
       messageyiyi: "\n",
@@ -121,6 +172,7 @@ Page({
     });
   },
   teil4: function(){
+    globalArticlePageSelection = 4;
     this.setData({
       messageyi: "2024年1月1日起实施！《企业知识产权合规",
       messageyiyi: "\n管理体系 要求》标准换版",

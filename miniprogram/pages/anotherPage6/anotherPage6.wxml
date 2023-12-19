@@ -16,7 +16,7 @@
         <view class="aP_info3">动漫大厦B座413室</view> 
     </view> 
     
-        <button class="aP_send"  style="width: 300rpx!important" type='default' bindtap='onShareAppMessage'>发名片</button>
+        <button class="aP_send"  style="width: 300rpx!important" type='default' open-type="share">发名片</button>
         <button class="aP_save"  style="width: 300rpx!important" type='default' bindtap='saveMailList6'>保存到通讯录</button>
     
       
@@ -28,9 +28,13 @@
     <view class="aP_body">
         <text >\n\n\n\n</text>
         <view class="aP_introduction">个人简介</view>
-        <view class="aP_content"></view>
-        <view class="aP_introduction">个人照片</view> 
+        <view class="aP_content">
+            作为新创财务咨询企业--南京逸勉财务的外勤会计，我为人外向、负责，将全程协助办理您的工商注册、银行开户等业务。
+        </view>
+        <view class="aP_introduction">我与团队</view>
         <text >\n</text>
+        <image src="http://s59avscau.hd-bkt.clouddn.com/team.jpg" class= "meAndTeam"/>
+       
         
     </view>
     

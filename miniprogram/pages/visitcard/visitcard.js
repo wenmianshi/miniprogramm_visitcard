@@ -22,31 +22,58 @@ Page({
         }
     })
   },
-  onShareAppMessage: function(){
-    const promise = new Promise(resolve => {
-        setTimeout(() => {
-        resolve({
-            title: '逸勉财务App'
-            })
-            }, 2000)
-        })
-        return {
+  onShareAppMessage: function({from, target}){
+        console.log(from);
+        console.log(target);
+        if (from == 'button' && target.id == 'share1'){
+          return {
             title: '逸勉财务App',
-            path: 'pages/index/index',
-            promise 
+            path: 'pages/anotherPage1/anotherPage1',
+            imageUrl:'http://s59avscau.hd-bkt.clouddn.com/comservice.jpg' 
         }
+        } else if (from == 'button' && target.id == 'share2'){
+          return {
+            title: '逸勉财务App',
+            path: 'pages/anotherPage2/anotherPage2',
+            imageUrl:'http://s59avscau.hd-bkt.clouddn.com/comservice.jpg' 
+        } 
+        }else if (from == 'button' && target.id == 'share3'){
+          return {
+            title: '逸勉财务App',
+            path: 'pages/anotherPage3/anotherPage3',
+            imageUrl:'http://s59avscau.hd-bkt.clouddn.com/comservice.jpg'
+        }
+        } else if (from == 'button' && target.id == 'share4'){
+          return {
+            title: '逸勉财务App',
+            path: 'pages/anotherPage4/anotherPage4',
+            imageUrl:'http://s59avscau.hd-bkt.clouddn.com/comservice.jpg'
+        }
+        } else if (from == 'button' && target.id == 'share5'){
+          return {
+            title: '逸勉财务App',
+            path: 'pages/anotherPage5/anotherPage5',
+            imageUrl:'http://s59avscau.hd-bkt.clouddn.com/comservice.jpg'
+        }
+        } else if (from == 'button' && target.id == 'share6'){
+          return {
+            title: '逸勉财务App',
+            path: 'pages/anotherPage6/anotherPage6',
+            imageUrl:'http://s59avscau.hd-bkt.clouddn.com/comservice.jpg'
+        }
+        } else {
+          return {
+            title: '逸勉财务App',
+            path: 'pages/visitcard/visitcard',
+            imageUrl:'http://s59avscau.hd-bkt.clouddn.com/comservice.jpg'
+        }
+    }
     },
-    onShareTimeline() {
-        const promise = new Promise(resolve => {
-        setTimeout(() => {
-            resolve({
-            title: '逸勉财务App'
-            })
-        }, 2000)
-        })
+    onShareTimeline: function() {
         return {
-        title: '逸勉财务App',
-        imageUrl:'http://s59avscau.hd-bkt.clouddn.com/comservice.jpg' 
+          title: '逸勉财务App',
+          path: 'pages/visitcard/visitcard',
+          imageUrl:'http://s59avscau.hd-bkt.clouddn.com/comservice.jpg' 
         }
     },
   anotherPage1(){

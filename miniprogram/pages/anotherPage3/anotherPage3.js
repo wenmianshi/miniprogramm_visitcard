@@ -6,29 +6,16 @@ Page({
       })
   },
   onShareAppMessage: function(){
-    const promise = new Promise(resolve => {
-        setTimeout(() => {
-          resolve({
-            title: '逸勉财务裴会计'
-          })
-        }, 2000)
-      })
       return {
         title: '逸勉财务裴会计',
         path: 'pages/anotherPage3/anotherPage3',
-        promise 
+        imageUrl:'http://s59avscau.hd-bkt.clouddn.com/comservice.jpg' 
       }
-},
-onShareTimeline() {
-    const promise = new Promise(resolve => {
-      setTimeout(() => {
-        resolve({
-          title: '逸勉财务裴会计'
-        })
-      }, 2000)
-    })
+    },
+onShareTimeline: function() {
     return {
       title: '逸勉财务裴会计',
+      path: 'pages/anotherPage3/anotherPage3',
       imageUrl:'http://s59avscau.hd-bkt.clouddn.com/comservice.jpg' 
     }
   },

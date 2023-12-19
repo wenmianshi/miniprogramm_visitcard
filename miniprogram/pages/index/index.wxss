@@ -1,21 +1,44 @@
 .slides{
+  position: absolute;
   width: 100%;
   height: 100%;
 }
 .slides swiper{
+  position: absolute;
   width: 100%;
   height: 430rpx;
 }
 .com {
+  position: absolute;
   width: 100%;
 }
 .comIntro{
+  position: absolute;
+  top: 420rpx;
+  font-size: 34rpx;
+  font-weight: 550;
+  margin-left: 25rpx;
+  color: rgb(72, 70, 70);
+}
+.comIntro1{
+  position: absolute;
+  top: 870rpx;
+  font-size: 34rpx;
+  font-weight: 550;
+  margin-left: 25rpx;
+  color: rgb(72, 70, 70);
+}
+.comIntro2{
+  position: absolute;
+  top: -205rpx;
   font-size: 34rpx;
   font-weight: 550;
   margin-left: 25rpx;
   color: rgb(72, 70, 70);
 }
 .content{
+  position: absolute;
+  top: 500rpx;
   font-size: 30rpx;
   font-weight: 300;
   margin: 35rpx;
@@ -23,75 +46,85 @@
   text-shadow: rgba(77, 83, 83, 0.711) 0 0 2rpx;
   color: rgb(86, 89, 92);
 }
-
+.content1{
+  position: absolute;
+  top: 905rpx;
+  font-size: 30rpx;
+  font-weight: 300;
+  margin: 35rpx;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-shadow: rgba(77, 83, 83, 0.711) 0 0 2rpx;
+  color: rgb(86, 89, 92);
+}
 .news{
   position: relative;
-  top: 10rpx;
+  top: 1300rpx;
 }
 .checkAll{
   position: absolute;
-  top: 10rpx;
+  top: -188rpx;
+  left: 582rpx;
   font-size: 27rpx;
-  color: #322f2f;
+  color: #908e8e;
   font-weight: 500;
 }
 .checkAl{
   position: absolute;
-  top: -1rpx;
-  left: 670rpx;
+  top: -210rpx;
+  left: 700rpx;
   font-size: 39rpx;
-  color: #5e5b5b;
+  color: #908e8e;
   font-weight: 500;
   text-shadow: #827f7f 0 0 2rpx;
 }
 .part1{
   position: absolute;
-  top: 10rpx;
-  left: 15rpx;
+  top: 12rpx;
+  left: 50rpx;
   font-size: 28rpx;
 }
 .part2{
   position: absolute;
-  top: 10rpx;
-  left: 235rpx;
+  top: 12rpx;
+  left: 240rpx;
   font-size: 28rpx;
 }
 .part3{
   position: absolute;
-  top: 10rpx;
-  left: 400rpx;
+  top: 12rpx;
+  left: 405rpx;
   font-size: 28rpx;
 }
 .part4{
   position: absolute;
-  top: 10rpx;
-  left: 575rpx;
+  top: 12rpx;
+  left: 572rpx;
   font-size: 28rpx;
 }
 .smallCover{
   position: relative;
-  top: -80rpx;
-  height: 60rpx;
+  top: -217rpx;
+  height: 85rpx;
   width: 800rpx;
   background-color: rgb(250, 252, 252);
 }
 .coverArticles{
   position: absolute;
-  top: 105rpx;
+  top: -33rpx;
   height: 160rpx;
   width: 800rpx;
   background-color: rgb(246, 254, 254);
 }
 .coverArticles1{
   position: absolute;
-  top: 265rpx;
+  top: 129rpx;
   height: 160rpx;
   width: 800rpx;
   background-color: rgb(246, 254, 254);
 }
 .coverArticles2{
   position: absolute;
-  top: 420rpx;
+  top: 288rpx;
   height: 160rpx;
   width: 800rpx;
   background-color: rgb(246, 254, 254);

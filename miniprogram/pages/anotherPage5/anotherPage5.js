@@ -6,29 +6,16 @@ Page({
       })
   },
   onShareAppMessage: function(){
-    const promise = new Promise(resolve => {
-        setTimeout(() => {
-        resolve({
-            title: '逸勉财务李德慧'
-            })
-            }, 2000)
-        })
         return {
             title: '逸勉财务李德慧',
             path: 'pages/anotherPage5/anotherPage5',
-            promise 
+            imageUrl:'http://s59avscau.hd-bkt.clouddn.com/comservice.jpg'
         }
     },
-    onShareTimeline() {
-        const promise = new Promise(resolve => {
-        setTimeout(() => {
-            resolve({
-            title: '逸勉财务李德慧'
-            })
-        }, 2000)
-        })
+    onShareTimeline: function(){
         return {
         title: '逸勉财务李德慧',
+        path: 'pages/anotherPage5/anotherPage5',
         imageUrl:'http://s59avscau.hd-bkt.clouddn.com/comservice.jpg' 
         }
     },
