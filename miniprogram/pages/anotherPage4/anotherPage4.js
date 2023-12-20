@@ -22,14 +22,14 @@ Page({
     },
   freeCall4:function(){
       wx.makePhoneCall({
-          phoneNumber: '18051963452',
+          phoneNumber: '13814174916',
       })
   },
   anrufen4: function(){
       var that = this
       wx.showModal({
           title:'提示',
-          content:'呼叫18051963452',
+          content:'呼叫13814174916',
           success: function(res){
               if(res.confirm){
                   console.log('用户确定呼叫')
@@ -88,7 +88,7 @@ Page({
                   wx.addPhoneContact({
                       firstName: '李晨', // firstName必传,不然报错
                       nickName: '逸勉会计李晨',
-                      mobilePhoneNumber: '18051963452', //手机号
+                      mobilePhoneNumber: '13814174916', //手机号
                       addressState:'江苏省',
                       addressCity:'南京市软件园',
                       addressStreet:'星火路11号动漫大厦B座413室',
@@ -102,7 +102,7 @@ Page({
                   wx.addPhoneContact({
                       firstName: '李晨', // firstName必传,不然报错
                       nickName: '逸勉会计李晨',
-                      mobilePhoneNumber: '18051963452', //手机号
+                      mobilePhoneNumber: '13814174916 ', //手机号
                       orgnization: '南京逸勉财务',
                       addressState:'江苏省',
                       addressCity:'南京市软件园',

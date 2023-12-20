@@ -109,7 +109,7 @@ Page({
       })
     } else if (globalArticlePageSelection == 3) {
       wx.navigateTo({
-        url: '/pages/aufsatz12/aufsatz12',
+        url: '/pages/aufsatz10/aufsatz10',
       })
     } else if (globalArticlePageSelection == 4) {
       wx.navigateTo({

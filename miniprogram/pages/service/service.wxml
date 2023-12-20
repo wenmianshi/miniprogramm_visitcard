@@ -49,9 +49,8 @@
 <view class="openAccount">
   <text class="priceList1">下单即享大礼包</text>
   <text class="inhalt">
-    <text >\n\n  现在起，委托我司代理记账，即送0元注册，高额返税扶持，我们办到直接开业！</text>
+    <text>\n\n  现在起，下单年度支付代理记账报税，即送抵扣券一张，价值158元！</text>
     <text >\n我们与各大银行均有合作，为您开辟专属绿色通道，帮您解决银行开户难题！</text>
-    <text >\n疑难注销、文创数娱孵化器空间租赁等业务我们也可以轻松为您解决！</text>
     <text >\n此外，我们还为您免费提供在代账期间的财务咨询，包括为贵司设计企业财税顶层架构和量身定制筹划方案！</text>
   </text>
   <button class="order" type="default" style="width:270rpx" open-type="contact" bindcontact="handleContact">立即下单</button>
