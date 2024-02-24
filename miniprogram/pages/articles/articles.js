@@ -15,14 +15,14 @@ Page({
     return {
         title: '逸勉财务App',
         path: 'pages/articles/articles',
-        imageUrl:'http://s59avscau.hd-bkt.clouddn.com/comservice.jpg'   
+        imageUrl:'https://7969-yimiancaiwu-8gcpfdsgc4d1a9f2-1323094367.tcb.qcloud.la/comservice.jpg?sign=7d63691bfd89ad55af9c97b51aa35d0e&t=1704634574'   
     }
   },
   onShareTimeline: function() {
     return {
         title: '逸勉财务App',
         path: 'pages/articles/articles',
-        imageUrl:'http://s59avscau.hd-bkt.clouddn.com/comservice.jpg' 
+        imageUrl:'https://7969-yimiancaiwu-8gcpfdsgc4d1a9f2-1323094367.tcb.qcloud.la/comservice.jpg?sign=7d63691bfd89ad55af9c97b51aa35d0e&t=1704634574' 
     }
   },
   aufsatz1() {

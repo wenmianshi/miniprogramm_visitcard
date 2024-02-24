@@ -8,7 +8,7 @@
 </view>
 <view class="coverArticles">
     <view class="article1" bindtap='aufsatz1' >
-       <image src="http://s59avscau.hd-bkt.clouddn.com/one.gif" class="p1"></image>
+       <image src="https://7969-yimiancaiwu-8gcpfdsgc4d1a9f2-1323094367.tcb.qcloud.la/one.gif?sign=5c40e1acf1d66abbac06964b116eca0e&t=1704634648" class="p1"></image>
        <view class="yi">
         <text class="wenben">事关养老！12月31日前办理，才能享受这项个税优惠→</text>
        </view>
@@ -17,7 +17,7 @@
 </view>
 <view class="coverArticles1">
     <view class="article2" bindtap='aufsatz2' >
-       <image src="http://s59avscau.hd-bkt.clouddn.com/twoo.png" class="p1"></image> 
+       <image src="https://7969-yimiancaiwu-8gcpfdsgc4d1a9f2-1323094367.tcb.qcloud.la/twoo.png?sign=898ddb6f11de71b83ac3cb51b92461bb&t=1704634685" class="p1"></image> 
        <view class="er">
         <text class="wenben">事关钱袋子！2024年度个税专项附加扣除信息确认开始啦~</text>
        </view>
@@ -26,7 +26,7 @@
 </view>
 <view class="coverArticles2">
     <view class="article3" bindtap='aufsatz3' >
-       <image src="http://s59avscau.hd-bkt.clouddn.com/three.png" class="p1"></image> 
+       <image src="https://7969-yimiancaiwu-8gcpfdsgc4d1a9f2-1323094367.tcb.qcloud.la/three.png?sign=1c79e27c3010ee317d4d064a6827c5c2&t=1704636414" class="p1"></image> 
        <view class="san">
         <text class="wenben">惠企政策查询+申报，宁企通“一站”汇聚！</text>
        </view>
@@ -35,7 +35,7 @@
 </view>
 <view class="coverArticles3">
     <view class="article4" bindtap='aufsatz4' >
-       <image src="http://s59avscau.hd-bkt.clouddn.com/four.png" class="p1"></image> 
+       <image src="https://7969-yimiancaiwu-8gcpfdsgc4d1a9f2-1323094367.tcb.qcloud.la/four.png?sign=21fa0d85909e3887c89fbd6c4715b36f&t=1704636447" class="p1"></image> 
        <view class="si">
         <text class="wenben">第一次有人把劳务派遣和劳务分包的区别，讲得这么清楚！真的太好懂了</text>
        </view>
@@ -44,7 +44,7 @@
 </view>
 <view class="coverArticles4">
     <view class="article1" bindtap='aufsatz5' >
-       <image src="http://s59avscau.hd-bkt.clouddn.com/four.jpeg" class="p1"></image> 
+       <image src="https://7969-yimiancaiwu-8gcpfdsgc4d1a9f2-1323094367.tcb.qcloud.la/four.jpeg?sign=927cde286f72f388c89ccfb94f7fad9d&t=1704637007" class="p1"></image> 
        <view class="wu">
         <text class="wenben">税务局提醒：2023年12月31日前，这项费用必须完成补缴，否则加收滞纳金！</text>
        </view>
@@ -53,7 +53,7 @@
 </view>
 <view class="coverArticles5">
     <view class="article6" bindtap='aufsatz6' >
-       <image src="http://s59avscau.hd-bkt.clouddn.com/liu.png" class="p1"></image> 
+       <image src="https://7969-yimiancaiwu-8gcpfdsgc4d1a9f2-1323094367.tcb.qcloud.la/liu.png?sign=4375f874202a876703a2d25c864446f8&t=1704636495" class="p1"></image> 
        <view class="jiu">
         <text class="wenben">增值税进项税额转出6大知识点</text>
        </view>
@@ -62,7 +62,7 @@
 </view>
 <view class="coverArticles6">
     <view class="article7" bindtap='aufsatz7' >
-       <image src="http://s59avscau.hd-bkt.clouddn.com/sixxx.png" class="p1"></image> 
+       <image src="https://7969-yimiancaiwu-8gcpfdsgc4d1a9f2-1323094367.tcb.qcloud.la/sixxx.png?sign=0d044536a5866dc16b80151c2f183ff6&t=1704636580" class="p1"></image> 
        <view class="shi">
         <text class="wenben">进销不匹配，严查！</text>
        </view>
@@ -71,7 +71,7 @@
 </view>
 <view class="coverArticles7">
     <view class="article8" bindtap='aufsatz8' >
-       <image src="http://s59avscau.hd-bkt.clouddn.com/seven.png" class="p1"></image> 
+       <image src="https://7969-yimiancaiwu-8gcpfdsgc4d1a9f2-1323094367.tcb.qcloud.la/seven.png?sign=e7a92afe98b2e378345ce1b67de2856a&t=1704636625" class="p1"></image> 
        <view class="shiyi">
         <text class="wenben">科普：小规模纳税人和一般人纳税人</text>
        </view>
@@ -80,7 +80,7 @@
 </view>
 <view class="coverArticles8">
     <view class="article9" bindtap='aufsatz9' >
-       <image src="http://s59avscau.hd-bkt.clouddn.com/four.jpeg" class="p1"></image> 
+       <image src="https://7969-yimiancaiwu-8gcpfdsgc4d1a9f2-1323094367.tcb.qcloud.la/four.jpeg?sign=3d075752233a7f71d3b055a3da540d1d&t=1704636652" class="p1"></image> 
        <view class="liu">
         <text class="wenben">个人营业执照网上申请，个体工商户营业执照需要什么材料，一个人可以申请几个个体户呢？</text>
        </view>
@@ -89,7 +89,7 @@
 </view>
 <view class="coverArticles9">
     <view class="article10" bindtap='aufsatz10' >
-       <image src="http://s59avscau.hd-bkt.clouddn.com/nine.jpeg" class="p1"></image> 
+       <image src="https://7969-yimiancaiwu-8gcpfdsgc4d1a9f2-1323094367.tcb.qcloud.la/nine.jpeg?sign=c5f46cf0135a539a7b257ea04bb467d4&t=1704636677" class="p1"></image> 
        <view class="shier">
         <text class="wenben">大学生创业税费优惠政策</text>
        </view>
@@ -98,7 +98,7 @@
 </view>
 <view class="coverArticles10">
     <view class="article11" bindtap='aufsatz11' >
-       <image src="http://s59avscau.hd-bkt.clouddn.com/eight.png" class="p1" ></image> 
+       <image src="https://7969-yimiancaiwu-8gcpfdsgc4d1a9f2-1323094367.tcb.qcloud.la/eight.png?sign=088b797585927fa98b8cd787643c85ee&t=1704636697" class="p1" ></image> 
        <view class="qi">
         <text class="wenben">2024年1月1日起实施！《企业知识产权合规管理体系 要求》标准换版</text>
        </view> 
@@ -107,7 +107,7 @@
 </view>
 <view class="coverArticles11">
     <view class="article11" bindtap='aufsatz12' >
-       <image src="http://s59avscau.hd-bkt.clouddn.com/four.jpeg" class="p1" ></image> 
+       <image src="https://7969-yimiancaiwu-8gcpfdsgc4d1a9f2-1323094367.tcb.qcloud.la/four.jpeg?sign=6226e5203c09b98daa961d6b6114f159&t=1704636724" class="p1" ></image> 
        <view class="qi">
         <text class="wenben">超出营业执照经营范围可以开票吗？国家税务总局正式回复</text>
        </view>
@@ -116,7 +116,7 @@
 </view>
 <view class="coverArticles12">
     <view class="article1" bindtap='aufsatz13' >
-       <image src="http://s59avscau.hd-bkt.clouddn.com/jishu.png" class="p1" ></image> 
+       <image src="https://7969-yimiancaiwu-8gcpfdsgc4d1a9f2-1323094367.tcb.qcloud.la/jishu.png?sign=f7eef3edd09c547d9959c064436fa21c&t=1705063210" class="p1" ></image> 
         <view class="ba">
         <text class="wenben">享受技术转让、技术开发免征增值税, 这些要点请注意</text>
        </view>

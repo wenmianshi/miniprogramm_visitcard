@@ -57,5 +57,10 @@
       "backgroundColor": "#fff",
       "fontSize": 24,
       "position": "bottom"
-  }
+  },
+  "requiredPrivateInfos": [
+    "chooseAddress",
+    "chooseLocation",
+    "getFuzzyLocation"
+  ]
 }

@@ -5,22 +5,22 @@
     <view class="slides">
         <swiper indicator-dots="{{indicator_dots}}" indicator-color="{{indicator_color}}" indicator-active-color="{{indicator_active_color}}" autoplay="{{autoplay}}" interval="{{interval}}" circular="{{circular}}">
             <swiper-item>
-                <image src="http://s59avscau.hd-bkt.clouddn.com/com1.jpg" mode="widthFix" class="com"></image>
+                <image src="https://7969-yimiancaiwu-8gcpfdsgc4d1a9f2-1323094367.tcb.qcloud.la/com1.jpg?sign=7446f698b2959883e2a9cddda86562dc&t=1704633819" mode="widthFix" class="com"></image>
             </swiper-item>
             <swiper-item>
-                <image src="http://s59avscau.hd-bkt.clouddn.com/com2.jpg" mode="widthFix" class="com"></image>
+                <image src="https://7969-yimiancaiwu-8gcpfdsgc4d1a9f2-1323094367.tcb.qcloud.la/com2.png?sign=b8f3374411816a61b2412bfd6568ec5a&t=1705063046" mode="widthFix" class="com"></image>
             </swiper-item>
             <swiper-item>
-                <image src="http://s59avscau.hd-bkt.clouddn.com/com3.jpg" mode="widthFix" class="com"></image>
+                <image src="https://7969-yimiancaiwu-8gcpfdsgc4d1a9f2-1323094367.tcb.qcloud.la/com3.jpg?sign=eb8de8dad1f146fa9c7e0493e130a50d&t=1704633852" mode="widthFix" class="com"></image>
             </swiper-item>
             <swiper-item>
-                <image src="http://s59avscau.hd-bkt.clouddn.com/com4.jpg" mode="widthFix" class="com"></image>
+                <image src="https://7969-yimiancaiwu-8gcpfdsgc4d1a9f2-1323094367.tcb.qcloud.la/com4.jpg?sign=70c2cb522fd71bae48efac23fcecf466&t=1704633913" mode="widthFix" class="com"></image>
             </swiper-item>
             <swiper-item>
-                <image src="http://s59avscau.hd-bkt.clouddn.com/com5.jpg" mode="widthFix" class="com"></image>
+                <image src="https://7969-yimiancaiwu-8gcpfdsgc4d1a9f2-1323094367.tcb.qcloud.la/com5.jpg?sign=93e28b65111a843fc530ccc4fa6d680d&t=1704633888" mode="widthFix" class="com"></image>
             </swiper-item>
             <swiper-item>
-                <image src="http://s59avscau.hd-bkt.clouddn.com/com6.jpg" mode="widthFix" class="com"></image>
+                <image src="https://7969-yimiancaiwu-8gcpfdsgc4d1a9f2-1323094367.tcb.qcloud.la/com6.jpg?sign=a6041e2a3b91f20a9a816b365200b44a&t=1704633874" mode="widthFix" class="com"></image>
             </swiper-item>
         </swiper>
     </view>

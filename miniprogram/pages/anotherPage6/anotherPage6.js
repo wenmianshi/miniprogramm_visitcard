@@ -9,14 +9,14 @@ Page({
         return {
             title: '逸勉财务王荣祥',
             path: 'pages/anotherPage6/anotherPage6',
-            imageUrl:'http://s59avscau.hd-bkt.clouddn.com/comservice.jpg'  
+            imageUrl:'https://7969-yimiancaiwu-8gcpfdsgc4d1a9f2-1323094367.tcb.qcloud.la/comservice.jpg?sign=89803dae2ae890a1401b8d7d69feed96&t=1704635300'  
         }
     },
     onShareTimeline: function() {
         return {
         title: '逸勉财务王荣祥',
         path: 'pages/anotherPage6/anotherPage6',
-        imageUrl:'http://s59avscau.hd-bkt.clouddn.com/comservice.jpg' 
+        imageUrl:'https://7969-yimiancaiwu-8gcpfdsgc4d1a9f2-1323094367.tcb.qcloud.la/comservice.jpg?sign=89803dae2ae890a1401b8d7d69feed96&t=1704635300' 
         }
     },
   freeCall6:function(){
@@ -63,14 +63,37 @@ Page({
           }
       })
   },
-  nav6(e) {
+  freeCopy1: function (){
+    wx.setClipboardData({
+        data: '南京市江北新区星火路11号南京软件园动漫大厦B座4-413室',
+        success(){
+            wx.hideToast();
+        }
+    })
+},
+copyLocation: function(){
+    var that = this
+    wx.showModal({
+        content:'复制地址',
+        success: function(res){
+            if(res.confirm){
+                console.log('用户确定复制')
+                that.freeCopy1();
+            }
+            else{
+                console.log('用户点击取消')
+            }
+        }
+    })
+},
+  /*nav6(e) {
       var item = e.currentTarget.dataset.item;
-      wx.getLocation({
+      wx.getFuzzyLocation({
         type: 'wgs84',
         success: function (res) {
           wx.openLocation({
-            latitude: 32.09374,
-            longitude: 118.41501,
+            latitude: 32.162729,
+            longitude: 118.697326,
             address: '江苏省南京市软件园动漫大厦B座413室'
           })
         }

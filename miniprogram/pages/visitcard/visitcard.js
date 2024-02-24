@@ -29,43 +29,43 @@ Page({
           return {
             title: '逸勉财务App',
             path: 'pages/anotherPage1/anotherPage1',
-            imageUrl:'http://s59avscau.hd-bkt.clouddn.com/comservice.jpg' 
+            imageUrl:'https://7969-yimiancaiwu-8gcpfdsgc4d1a9f2-1323094367.tcb.qcloud.la/comservice.jpg?sign=ee645bea6d44dc2ba005b99b98f2a0dd&t=1704635885' 
         }
         } else if (from == 'button' && target.id == 'share2'){
           return {
             title: '逸勉财务App',
             path: 'pages/anotherPage2/anotherPage2',
-            imageUrl:'http://s59avscau.hd-bkt.clouddn.com/comservice.jpg' 
+            imageUrl:'https://7969-yimiancaiwu-8gcpfdsgc4d1a9f2-1323094367.tcb.qcloud.la/comservice.jpg?sign=ee645bea6d44dc2ba005b99b98f2a0dd&t=1704635885' 
         } 
         }else if (from == 'button' && target.id == 'share3'){
           return {
             title: '逸勉财务App',
             path: 'pages/anotherPage3/anotherPage3',
-            imageUrl:'http://s59avscau.hd-bkt.clouddn.com/comservice.jpg'
+            imageUrl:'https://7969-yimiancaiwu-8gcpfdsgc4d1a9f2-1323094367.tcb.qcloud.la/comservice.jpg?sign=ee645bea6d44dc2ba005b99b98f2a0dd&t=1704635885' 
         }
         } else if (from == 'button' && target.id == 'share4'){
           return {
             title: '逸勉财务App',
             path: 'pages/anotherPage4/anotherPage4',
-            imageUrl:'http://s59avscau.hd-bkt.clouddn.com/comservice.jpg'
+            imageUrl:'https://7969-yimiancaiwu-8gcpfdsgc4d1a9f2-1323094367.tcb.qcloud.la/comservice.jpg?sign=ee645bea6d44dc2ba005b99b98f2a0dd&t=1704635885' 
         }
         } else if (from == 'button' && target.id == 'share5'){
           return {
             title: '逸勉财务App',
             path: 'pages/anotherPage5/anotherPage5',
-            imageUrl:'http://s59avscau.hd-bkt.clouddn.com/comservice.jpg'
+            imageUrl:'https://7969-yimiancaiwu-8gcpfdsgc4d1a9f2-1323094367.tcb.qcloud.la/comservice.jpg?sign=ee645bea6d44dc2ba005b99b98f2a0dd&t=1704635885' 
         }
         } else if (from == 'button' && target.id == 'share6'){
           return {
             title: '逸勉财务App',
             path: 'pages/anotherPage6/anotherPage6',
-            imageUrl:'http://s59avscau.hd-bkt.clouddn.com/comservice.jpg'
+            imageUrl:'https://7969-yimiancaiwu-8gcpfdsgc4d1a9f2-1323094367.tcb.qcloud.la/comservice.jpg?sign=ee645bea6d44dc2ba005b99b98f2a0dd&t=1704635885' 
         }
         } else {
           return {
             title: '逸勉财务App',
             path: 'pages/visitcard/visitcard',
-            imageUrl:'http://s59avscau.hd-bkt.clouddn.com/comservice.jpg'
+            imageUrl:'https://7969-yimiancaiwu-8gcpfdsgc4d1a9f2-1323094367.tcb.qcloud.la/comservice.jpg?sign=ee645bea6d44dc2ba005b99b98f2a0dd&t=1704635885' 
         }
     }
     },
@@ -73,7 +73,7 @@ Page({
         return {
           title: '逸勉财务App',
           path: 'pages/visitcard/visitcard',
-          imageUrl:'http://s59avscau.hd-bkt.clouddn.com/comservice.jpg' 
+          imageUrl:'https://7969-yimiancaiwu-8gcpfdsgc4d1a9f2-1323094367.tcb.qcloud.la/comservice.jpg?sign=ee645bea6d44dc2ba005b99b98f2a0dd&t=1704635885' 
         }
     },
   anotherPage1(){

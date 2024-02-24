@@ -4,9 +4,9 @@
 <!--pages/anotherPage3/anotherPage3.wxml-->
 <view>
     <view class="aP_cover">
-        <image src="http://s59avscau.hd-bkt.clouddn.com/logo.png" class="aP_logo"/>
+        <image src="https://7969-yimiancaiwu-8gcpfdsgc4d1a9f2-1323094367.tcb.qcloud.la/logo.png?sign=3c10657575459cbdd681a645d9bd71d9&t=1704636262" class="aP_logo"/>
         <view class="aP_companyName">南京逸勉财务</view> 
-        <image src="http://s59avscau.hd-bkt.clouddn.com/wangrong.png" class="aP_boss"/>
+        <image src="https://7969-yimiancaiwu-8gcpfdsgc4d1a9f2-1323094367.tcb.qcloud.la/wangrong.png?sign=385d5fcd4de3b2e72ab79de16bd32401&t=1704633511" class="aP_boss"/>
         <view class="aP_name">王荣祥</view> 
         <view class="aP_title">外勤会计</view> 
         <image src="http://s59avscau.hd-bkt.clouddn.com/telefon.png" class= "aP_telefon"/>
@@ -22,7 +22,7 @@
       
         <button class="aP_call"  style="width: 200rpx" type='default' hover-class="none" bindtap='anrufen6'>拨打电话</button>
         <button class="aP_copy" style="width: 200rpx" type='default' bindtap='copyWechat6'>复制微信</button>
-        <button class="aP_navigation" style="width: 200rpx" type='default' bindtap='nav6'>导航地址</button> 
+        <button class="aP_navigation" style="width: 200rpx" type='default' bindtap='copyLocation'>复制地址</button> 
    
 
     <view class="aP_body">
@@ -33,7 +33,7 @@
         </view>
         <view class="aP_introduction">我与团队</view>
         <text >\n</text>
-        <image src="http://s59avscau.hd-bkt.clouddn.com/team.jpg" class= "meAndTeam"/>
+        <image src="https://7969-yimiancaiwu-8gcpfdsgc4d1a9f2-1323094367.tcb.qcloud.la/team.jpg?sign=45366f4d19ec7961bd92495fe4465d31&t=1704632544" class= "meAndTeam"/>
        
         
     </view>
